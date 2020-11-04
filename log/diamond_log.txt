@@ -1,0 +1,163 @@
+2020-11-04 18:30:40,549 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:31:06,008 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:31:06,008 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:37:09,124 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:37:09,124 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:37:09,124 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:39:21,841 - epr.<module> - INFO - Starting logger.
+2020-11-04 18:41:06,345 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:25,163 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:25,163 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:58,936 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:58,936 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:10:58,936 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:40,355 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:11:53,177 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:12:19,974 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:12:19,974 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:13:36,556 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:13:36,556 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:13:36,556 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:14:15,796 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:17:39,434 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:23:39,630 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:25:29,769 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:05,568 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:05,849 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:26:05,951 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:26:27,088 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:27,088 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:26:27,089 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:26:27,089 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:26:27,189 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:26:27,189 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:27:29,835 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:27:29,835 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:27:29,835 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:27:29,840 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:27:29,840 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:27:29,840 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:27:29,860 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:27:29,860 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:27:29,860 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:27:29,942 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:27:29,942 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:27:29,942 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,111 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,117 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,121 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:32:18,220 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,099 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,101 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,111 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:14,211 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,468 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,472 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,474 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:33:50,574 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:34:53,028 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:34:53,406 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:34:53,410 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:34:53,506 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:35:28,694 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:35:28,694 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:35:28,694 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:35:28,694 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:35:28,695 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:35:28,695 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:35:28,795 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:35:28,795 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:36:21,413 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:36:21,413 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:36:21,413 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:36:21,413 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:36:21,413 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:36:21,413 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:36:21,416 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:36:21,416 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:36:21,416 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:36:21,515 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:36:21,515 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:36:21,515 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,892 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,893 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,897 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:37:03,997 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:38:26,052 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:38:26,356 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:38:26,358 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:38:26,457 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:38:41,714 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:38:41,714 - epr.<module> - INFO - Starting logger.
+2020-11-04 19:38:41,715 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:38:41,715 - emod.start - INFO - Starting Job Manager.
+2020-11-04 19:38:41,718 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:38:41,718 - cron.run - INFO - Starting Cron Daemon.
+2020-11-04 19:38:41,816 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-04 19:38:41,816 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
