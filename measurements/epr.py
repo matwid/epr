@@ -113,10 +113,7 @@ class EPR( ManagedJob, GetSetItemsMixin ):
             #Prepare counter
             counter_0 = self.time_tagger.Countrate(0)
             counter_1 = self.time_tagger.Countrate(1)
-            if self.allow_high_voltage:
-                self.keithley.voltage_range = 200
-                print 'Warning: Voltage Range is 200 V.'
-            
+         
 
             for i,v in enumerate(self.voltage):
 
@@ -144,8 +141,7 @@ class EPR( ManagedJob, GetSetItemsMixin ):
                 measured_counts       = counter_0.getData() + counter_1.getData()                
                 #self.measured_current = self.keithley.get_current(channel=1)*1000
 
-                print self.measured_current
-                
+                              
                 #set the plot data
                 self.y_data2          = np.append(self.y_data2, measured_counts)
                 self.y_data           = np.append(self.y_data,self.measured_current)
@@ -257,7 +253,6 @@ class EPR( ManagedJob, GetSetItemsMixin ):
             difference = self.v_end-self.v_begin
             temp_mesh = np.logspace(0, np.log10(np.abs(difference)), self.v_divisions, base=10.0)
             mesh = temp_mesh - np.abs(difference)
-            #print mesh
             return mesh
 
 
