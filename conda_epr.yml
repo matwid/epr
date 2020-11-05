@@ -67,4 +67,4 @@ dependencies:
   - wheel
   - xz
   - zlib
-prefix: /home/r2d2/.conda/envs/epr
+
