@@ -10,7 +10,7 @@ import logging, logging.handlers
 path = os.path.dirname(inspect.getfile(inspect.currentframe()))
 
 # First thing we do is start the logger
-file_handler = logging.handlers.TimedRotatingFileHandler(path+'/log/diamond_log.txt', 'W6') # start new file every sunday, keeping all the old ones 
+file_handler = logging.handlers.TimedRotatingFileHandler(path+'/log/log.txt', 'W6') # start new file every sunday, keeping all the old ones 
 file_handler.setFormatter(logging.Formatter("%(asctime)s - %(module)s.%(funcName)s - %(levelname)s - %(message)s"))
 file_handler.setLevel(logging.DEBUG)
 stream_handler=logging.StreamHandler()
@@ -58,13 +58,13 @@ epr_counter = nidaq.AnalogOutBurst(ao_chan=0, co_dev=1)
 #########################################
 
 import measurements.epr 
-epr = measurements.epr.EPR(epr_counter)
+epr = measurements.epr.EPR()
 
 #########################################
 # fire up the GUI
 #########################################
 
 
-epr.edit_traits()
+epr.configure_traits()
 
 

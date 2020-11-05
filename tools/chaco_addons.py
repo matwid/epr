@@ -69,7 +69,7 @@ import os.path
 # Enthought library imports
 from enable.api import BaseTool
 
-from utility import save_file
+from tools.utility import save_file
 
 class SaveTool(BaseTool):
     """

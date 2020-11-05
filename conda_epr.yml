@@ -2,10 +2,13 @@ name: epr
 channels:
   - defaults
 dependencies:
-  - numpy
   - ipython
-  - traits
-  - traitsui
-  - python-dateutil
-  - pytz
   - scipy
+  - python-dateutil
+  - traitsui
+  - pytz
+  - traits
+  - numpy
+  - swig
+  - pandas
+

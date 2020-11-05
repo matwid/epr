@@ -26,7 +26,6 @@ class EPR( ManagedJob, GetSetItemsMixin ):
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
     v_reset           = Float(default_value=0, label='reset voltage')
     allow_high_voltage= Bool(False, desc='allow high voltage',  label='allow high voltage',)
-    hysterese         = Bool(False, desc='performs forward and backward scan',  label='hysterese',)
     
     seconds_per_point = Float(default_value=.1, desc='Seconds per point', label='Seconds per point', mode='text', auto_set=False, enter_set=True)
     proceed           = Float(default_value=0.0, label='proceed [%]')
@@ -51,7 +50,7 @@ class EPR( ManagedJob, GetSetItemsMixin ):
 
     max_current = Float(default_value=10e-3, label='max current')
 
-    get_set_items=['__doc__', 'v_begin', 'v_end', 'v_delta', 'hysterese','seconds_per_point', 'voltage', 'current', 'counts' ]
+    get_set_items=['__doc__', 'v_begin', 'v_end', 'v_delta', 'seconds_per_point', 'voltage', 'current', 'counts' ]
 
     traits_view = View(VGroup(HGroup(Item('submit_button',   show_label=False),
                                      Item('remove_button',   show_label=False),
@@ -70,7 +69,7 @@ class EPR( ManagedJob, GetSetItemsMixin ):
                                      Item('v_delta',    enabled_when='scale != "log"'),
                                      Item('v_divisions',enabled_when='scale != "lin"'),
                                      Item('scale',      width=-80, enabled_when='state != "run"'),
-                                     Item('hysterese',  enabled_when='scale != "log"')
+                                     
                                      ),
                               HGroup(Item('seconds_per_point'),
                                      Item('max_current',enabled_when='scale != "run"'),
@@ -80,14 +79,13 @@ class EPR( ManagedJob, GetSetItemsMixin ):
                               Item('plot', editor=ComponentEditor(), show_label=False, resizable=True),
                               Item('plot2', editor=ComponentEditor(), show_label=False, resizable=True),
                               ),
-                       title='ivcurve', buttons=[], resizable=True
+                       title='Electron Paramagnetic Resonance (EPR) is equal to Electron Spin Resonace (ESR)', buttons=[], resizable=True
                        )
 
     
-    def __init__(self, time_tagger, keithley,  **kwargs):
-        super(Ivcurve, self).__init__(**kwargs)
-        self.time_tagger = time_tagger
-        self.keithley = keithley
+    def __init__(self,  **kwargs):
+        super(EPR, self).__init__(**kwargs)
+        #self.epr_counter = epr_counter
         
         self._create_plot()
         self._create_plot2()
@@ -99,7 +97,6 @@ class EPR( ManagedJob, GetSetItemsMixin ):
     def _run(self):
 
         try:
-            self.keithley.service_request_for_data_ready()
             self.state='run'
             
             #prepare empty arrays here, for eg a second run
@@ -110,21 +107,9 @@ class EPR( ManagedJob, GetSetItemsMixin ):
 
             total_length = len(np.arange(self.v_begin, self.v_end, self.v_delta))
             
-            #Prepare counter
-            counter_0 = self.time_tagger.Countrate(0)
-            counter_1 = self.time_tagger.Countrate(1)
-         
+       
 
-            for i,v in enumerate(self.voltage):
-
-
-
-                # set the voltage
-                self.keithley.set_voltage(channel=1,voltage=v, max_current=self.max_current)                 
-                
-                #clear counters             
-                counter_0.clear()
-                counter_1.clear()                
+            for i,v in enumerate(self.voltage):            
                 
                 #stop routine
                 self.thread.stop_request.wait(self.seconds_per_point)
@@ -134,13 +119,9 @@ class EPR( ManagedJob, GetSetItemsMixin ):
                     break            
                 
                 #set integration time
-                self.measured_current = self.keithley.get_meancurrent(channel=1,t=self.seconds_per_point)*1000
                 time.sleep(self.seconds_per_point)
                 
                 #get data                
-                measured_counts       = counter_0.getData() + counter_1.getData()                
-                #self.measured_current = self.keithley.get_current(channel=1)*1000
-
                               
                 #set the plot data
                 self.y_data2          = np.append(self.y_data2, measured_counts)
@@ -158,7 +139,7 @@ class EPR( ManagedJob, GetSetItemsMixin ):
             del counter_1
                         
         except:
-            logging.getLogger().exception('Error in ivcurve.')
+            logging.getLogger().exception('Error in EPR measurement.')
             self.state = 'error'
 
             
@@ -166,6 +147,7 @@ class EPR( ManagedJob, GetSetItemsMixin ):
             self.set_data_for_get_set_items()
             self.reset_keithley()
             self.state = 'done'
+
     #################################################################
     # Helper Methods
     #################################################################
@@ -234,6 +216,7 @@ class EPR( ManagedJob, GetSetItemsMixin ):
 
     def save_plot(self, filename):
         save_figure(self.plot, filename)
+
     def save_all(self, filename):
         self.plot.save(filename+'_i_v.png')
         self.plot2.save(filename+'_i_counts.png')
@@ -245,9 +228,6 @@ class EPR( ManagedJob, GetSetItemsMixin ):
     def generate_voltage(self):
         if self.scale == 'lin':
             mesh = np.arange(self.v_begin, self.v_end, self.v_delta)
-            if self.hysterese:
-                k= mesh[::-1]#reverse mesh
-                mesh = np.append(mesh,k)
             return mesh
         if self.scale == 'log':
             difference = self.v_end-self.v_begin
@@ -259,6 +239,6 @@ class EPR( ManagedJob, GetSetItemsMixin ):
     
 
 if __name__=='__main__':
-    epr = EPR(time_tagger, keithley)
-    epr.edit_traits()
+    epr = EPR()
+    epr.configure_traits()
     
