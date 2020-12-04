@@ -10,7 +10,7 @@ import logging, logging.handlers
 path = os.path.dirname(inspect.getfile(inspect.currentframe()))
 
 # First thing we do is start the logger
-file_handler = logging.handlers.TimedRotatingFileHandler(path+'/log/log.txt', 'W6') # start new file every sunday, keeping all the old ones 
+file_handler = logging.handlers.TimedRotatingFileHandler(path+'/log/log.txt', 'W6') # start new file every sunday, keeping all the old ones
 file_handler.setFormatter(logging.Formatter("%(asctime)s - %(module)s.%(funcName)s - %(levelname)s - %(message)s"))
 file_handler.setLevel(logging.DEBUG)
 stream_handler=logging.StreamHandler()
@@ -41,23 +41,24 @@ def shutdown(timeout=1.0):
             t.stop(timeout=timeout)
 
 # numerical classes that are used everywhere
-import numpy as np 
+import numpy as np
 
 #########################################
 # hardware
 #########################################
 
-from hardware.dummy import Nidaq as nidaq
-
-
+#from hardware.dummy import Nidaq as nidaq
+#from hardware.NationalInstruments.nidaq import AnalogInClockOut as AnalogInput
+import hardware.nidaq as ni
 # create hardware backends
-epr_counter = nidaq.AnalogOutBurst(ao_chan=0, co_dev=1)
-
+#epr_counter = AnalogInput(ao_chan=0, co_dev=1)
+analog_out = ni.AOTask(Channels='/Dev1/ao1', range=(0.,5.))
+analog_in = ni.AITask(Channels=['/Dev1/ai0'], N= 10,f=.1, )
 #########################################
 # create measurements
 #########################################
 
-import measurements.epr 
+import measurements.epr
 epr = measurements.epr.EPR()
 
 #########################################
@@ -66,5 +67,3 @@ epr = measurements.epr.EPR()
 
 
 epr.configure_traits()
-
-
