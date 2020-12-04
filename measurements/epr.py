@@ -167,8 +167,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     def _set_bias(self, v_bias):
         """sets an  analog output"""
         with nidaqmx.Task() as analog_output_task:
-             #just for testing ---> Pleas remove later
-            analog_output_task.ao_channels.add_ao_voltage_chan("Dev1/ao0","output_channel",0,5)
+            analog_output_task.ao_channels.add_ao_voltage_chan("Dev1/ao0","output_channel")
             analog_output_task.start
             analog_output_task.write(self.v_bias)
             analog_output_task.stop
