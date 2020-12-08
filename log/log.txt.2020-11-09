@@ -1,0 +1,1039 @@
+2020-11-09 14:57:24,889 - epr.<module> - INFO - Starting logger.
+2020-11-09 14:57:26,876 - emod.start - INFO - Starting Job Manager.
+2020-11-09 14:57:26,902 - cron.run - INFO - Starting Cron Daemon.
+2020-11-09 14:57:26,985 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-09 14:57:29,095 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-09 14:57:29,861 - font_manager.__init__ - DEBUG - font search path []
+2020-11-09 14:57:29,940 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\arial.ttf
+2020-11-09 14:57:29,940 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\ariblk.ttf
+2020-11-09 14:57:29,941 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\arialbd.ttf
+2020-11-09 14:57:29,941 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\arialbi.ttf
+2020-11-09 14:57:29,941 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\ariali.ttf
+2020-11-09 14:57:29,941 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\bahnschrift.ttf
+2020-11-09 14:57:29,941 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\calibri.ttf
+2020-11-09 14:57:29,942 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\calibrib.ttf
+2020-11-09 14:57:29,942 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\calibriz.ttf
+2020-11-09 14:57:29,942 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\calibrii.ttf
+2020-11-09 14:57:29,942 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\calibril.ttf
+2020-11-09 14:57:29,942 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\calibrili.ttf
+2020-11-09 14:57:29,942 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\cambria.ttc
+2020-11-09 14:57:29,943 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\cambriab.ttf
+2020-11-09 14:57:29,943 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\cambriaz.ttf
+2020-11-09 14:57:29,943 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\cambriai.ttf
+2020-11-09 14:57:29,943 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\candara.ttf
+2020-11-09 14:57:29,943 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\candarab.ttf
+2020-11-09 14:57:29,943 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\candaraz.ttf
+2020-11-09 14:57:29,944 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\candarai.ttf
+2020-11-09 14:57:29,944 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\candaral.ttf
+2020-11-09 14:57:29,944 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\candarali.ttf
+2020-11-09 14:57:29,944 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\comic.ttf
+2020-11-09 14:57:29,944 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\comicbd.ttf
+2020-11-09 14:57:29,944 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\comicz.ttf
+2020-11-09 14:57:29,945 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\comici.ttf
+2020-11-09 14:57:29,945 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\consola.ttf
+2020-11-09 14:57:29,945 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\consolab.ttf
+2020-11-09 14:57:29,945 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\consolaz.ttf
+2020-11-09 14:57:29,945 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\consolai.ttf
+2020-11-09 14:57:29,945 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\constan.ttf
+2020-11-09 14:57:29,946 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\constanb.ttf
+2020-11-09 14:57:29,946 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\constanz.ttf
+2020-11-09 14:57:29,946 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\constani.ttf
+2020-11-09 14:57:29,946 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\corbel.ttf
+2020-11-09 14:57:29,946 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\corbelb.ttf
+2020-11-09 14:57:29,946 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\corbelz.ttf
+2020-11-09 14:57:29,947 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\corbeli.ttf
+2020-11-09 14:57:29,947 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\corbell.ttf
+2020-11-09 14:57:29,947 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\corbelli.ttf
+2020-11-09 14:57:29,947 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\cour.ttf
+2020-11-09 14:57:29,947 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\courbd.ttf
+2020-11-09 14:57:29,947 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\courbi.ttf
+2020-11-09 14:57:29,948 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\couri.ttf
+2020-11-09 14:57:29,948 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\ebrima.ttf
+2020-11-09 14:57:29,948 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\ebrimabd.ttf
+2020-11-09 14:57:29,948 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\framd.ttf
+2020-11-09 14:57:29,948 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\framdit.ttf
+2020-11-09 14:57:29,948 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\gabriola.ttf
+2020-11-09 14:57:29,949 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\gadugi.ttf
+2020-11-09 14:57:29,949 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\gadugib.ttf
+2020-11-09 14:57:29,949 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\georgia.ttf
+2020-11-09 14:57:29,949 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\georgiab.ttf
+2020-11-09 14:57:29,949 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\georgiaz.ttf
+2020-11-09 14:57:29,950 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\georgiai.ttf
+2020-11-09 14:57:29,950 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\impact.ttf
+2020-11-09 14:57:29,950 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\inkfree.ttf
+2020-11-09 14:57:29,950 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\javatext.ttf
+2020-11-09 14:57:29,950 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\leelawui.ttf
+2020-11-09 14:57:29,950 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\leelauib.ttf
+2020-11-09 14:57:29,951 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\leeluisl.ttf
+2020-11-09 14:57:29,951 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\lucon.ttf
+2020-11-09 14:57:29,951 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\l_10646.ttf
+2020-11-09 14:57:29,951 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\malgun.ttf
+2020-11-09 14:57:29,951 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\malgunbd.ttf
+2020-11-09 14:57:29,951 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\malgunsl.ttf
+2020-11-09 14:57:29,952 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\himalaya.ttf
+2020-11-09 14:57:29,952 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msjh.ttc
+2020-11-09 14:57:29,952 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msjhbd.ttc
+2020-11-09 14:57:29,952 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msjhl.ttc
+2020-11-09 14:57:29,952 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\ntailu.ttf
+2020-11-09 14:57:29,952 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\ntailub.ttf
+2020-11-09 14:57:29,953 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\phagspa.ttf
+2020-11-09 14:57:29,953 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\phagspab.ttf
+2020-11-09 14:57:29,953 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\micross.ttf
+2020-11-09 14:57:29,953 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\taile.ttf
+2020-11-09 14:57:29,953 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\taileb.ttf
+2020-11-09 14:57:29,953 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msyh.ttc
+2020-11-09 14:57:29,954 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msyhbd.ttc
+2020-11-09 14:57:29,954 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msyhl.ttc
+2020-11-09 14:57:29,954 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msyi.ttf
+2020-11-09 14:57:29,954 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\mingliub.ttc
+2020-11-09 14:57:29,954 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\monbaiti.ttf
+2020-11-09 14:57:29,954 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\msgothic.ttc
+2020-11-09 14:57:29,955 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\mvboli.ttf
+2020-11-09 14:57:29,955 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\mmrtext.ttf
+2020-11-09 14:57:29,955 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\mmrtextb.ttf
+2020-11-09 14:57:29,955 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\nirmala.ttf
+2020-11-09 14:57:29,955 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\nirmalab.ttf
+2020-11-09 14:57:29,955 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\nirmalas.ttf
+2020-11-09 14:57:29,956 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\pala.ttf
+2020-11-09 14:57:29,956 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\palab.ttf
+2020-11-09 14:57:29,956 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\palabi.ttf
+2020-11-09 14:57:29,956 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\palai.ttf
+2020-11-09 14:57:29,956 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segmdl2.ttf
+2020-11-09 14:57:29,956 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoepr.ttf
+2020-11-09 14:57:29,957 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoeprb.ttf
+2020-11-09 14:57:29,957 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoesc.ttf
+2020-11-09 14:57:29,957 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoescb.ttf
+2020-11-09 14:57:29,957 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoeui.ttf
+2020-11-09 14:57:29,957 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguibl.ttf
+2020-11-09 14:57:29,957 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguibli.ttf
+2020-11-09 14:57:29,958 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoeuib.ttf
+2020-11-09 14:57:29,958 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoeuiz.ttf
+2020-11-09 14:57:29,958 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguiemj.ttf
+2020-11-09 14:57:29,958 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguihis.ttf
+2020-11-09 14:57:29,958 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoeuii.ttf
+2020-11-09 14:57:29,958 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoeuil.ttf
+2020-11-09 14:57:29,958 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguili.ttf
+2020-11-09 14:57:29,959 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguisb.ttf
+2020-11-09 14:57:29,959 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguisbi.ttf
+2020-11-09 14:57:29,959 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\segoeuisl.ttf
+2020-11-09 14:57:29,959 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguisli.ttf
+2020-11-09 14:57:29,959 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\seguisym.ttf
+2020-11-09 14:57:29,959 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\simsun.ttc
+2020-11-09 14:57:29,960 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\simsunb.ttf
+2020-11-09 14:57:29,960 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\sitka.ttc
+2020-11-09 14:57:29,960 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\sitkab.ttc
+2020-11-09 14:57:29,960 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\sitkaz.ttc
+2020-11-09 14:57:29,960 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\sitkai.ttc
+2020-11-09 14:57:29,960 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\sylfaen.ttf
+2020-11-09 14:57:29,961 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\symbol.ttf
+2020-11-09 14:57:29,961 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\tahoma.ttf
+2020-11-09 14:57:29,961 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\tahomabd.ttf
+2020-11-09 14:57:29,961 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\times.ttf
+2020-11-09 14:57:29,961 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\timesbd.ttf
+2020-11-09 14:57:29,961 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\timesbi.ttf
+2020-11-09 14:57:29,962 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\timesi.ttf
+2020-11-09 14:57:29,962 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\trebuc.ttf
+2020-11-09 14:57:29,962 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\trebucbd.ttf
+2020-11-09 14:57:29,962 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\trebucbi.ttf
+2020-11-09 14:57:29,962 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\trebucit.ttf
+2020-11-09 14:57:29,963 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\verdana.ttf
+2020-11-09 14:57:29,963 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\verdanab.ttf
+2020-11-09 14:57:29,963 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\verdanaz.ttf
+2020-11-09 14:57:29,963 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\verdanai.ttf
+2020-11-09 14:57:29,963 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\webdings.ttf
+2020-11-09 14:57:29,963 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\wingding.ttf
+2020-11-09 14:57:29,964 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\yugothb.ttc
+2020-11-09 14:57:29,964 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\yugothl.ttc
+2020-11-09 14:57:29,964 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\yugothm.ttc
+2020-11-09 14:57:29,964 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\yugothr.ttc
+2020-11-09 14:57:29,964 - font_manager.__init__ - DEBUG - trying fontname c:\windows\fonts\holomdl2.ttf
+2020-11-09 14:57:29,964 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\arial.ttf
+2020-11-09 14:57:29,965 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\arialbd.ttf
+2020-11-09 14:57:29,965 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\arialbi.ttf
+2020-11-09 14:57:29,965 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\ariali.ttf
+2020-11-09 14:57:29,965 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\ariblk.ttf
+2020-11-09 14:57:29,965 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\bahnschrift.ttf
+2020-11-09 14:57:29,965 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\calibri.ttf
+2020-11-09 14:57:29,965 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\calibrib.ttf
+2020-11-09 14:57:29,966 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\calibrii.ttf
+2020-11-09 14:57:29,966 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\calibril.ttf
+2020-11-09 14:57:29,966 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\calibrili.ttf
+2020-11-09 14:57:29,966 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\calibriz.ttf
+2020-11-09 14:57:29,966 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\cambriab.ttf
+2020-11-09 14:57:29,967 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\cambriai.ttf
+2020-11-09 14:57:29,967 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\cambriaz.ttf
+2020-11-09 14:57:29,967 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Candara.ttf
+2020-11-09 14:57:29,967 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Candarab.ttf
+2020-11-09 14:57:29,967 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Candarai.ttf
+2020-11-09 14:57:29,967 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Candaral.ttf
+2020-11-09 14:57:29,968 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Candarali.ttf
+2020-11-09 14:57:29,968 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Candaraz.ttf
+2020-11-09 14:57:29,968 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\comic.ttf
+2020-11-09 14:57:29,968 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\comicbd.ttf
+2020-11-09 14:57:29,968 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\comici.ttf
+2020-11-09 14:57:29,969 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\comicz.ttf
+2020-11-09 14:57:29,969 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\consola.ttf
+2020-11-09 14:57:29,969 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\consolab.ttf
+2020-11-09 14:57:29,969 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\consolai.ttf
+2020-11-09 14:57:29,969 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\consolaz.ttf
+2020-11-09 14:57:29,969 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\constan.ttf
+2020-11-09 14:57:29,970 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\constanb.ttf
+2020-11-09 14:57:29,970 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\constani.ttf
+2020-11-09 14:57:29,970 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\constanz.ttf
+2020-11-09 14:57:29,970 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\corbel.ttf
+2020-11-09 14:57:29,970 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\corbelb.ttf
+2020-11-09 14:57:29,970 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\corbeli.ttf
+2020-11-09 14:57:29,971 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\corbell.ttf
+2020-11-09 14:57:29,971 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\corbelli.ttf
+2020-11-09 14:57:29,971 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\corbelz.ttf
+2020-11-09 14:57:29,971 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\cour.ttf
+2020-11-09 14:57:29,971 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\courbd.ttf
+2020-11-09 14:57:29,971 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\courbi.ttf
+2020-11-09 14:57:29,972 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\couri.ttf
+2020-11-09 14:57:29,972 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\ebrima.ttf
+2020-11-09 14:57:29,972 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\ebrimabd.ttf
+2020-11-09 14:57:29,972 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\framd.ttf
+2020-11-09 14:57:29,972 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\framdit.ttf
+2020-11-09 14:57:29,972 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Gabriola.ttf
+2020-11-09 14:57:29,973 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\gadugi.ttf
+2020-11-09 14:57:29,973 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\gadugib.ttf
+2020-11-09 14:57:29,973 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\georgia.ttf
+2020-11-09 14:57:29,973 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\georgiab.ttf
+2020-11-09 14:57:29,973 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\georgiai.ttf
+2020-11-09 14:57:29,973 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\georgiaz.ttf
+2020-11-09 14:57:29,974 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\himalaya.ttf
+2020-11-09 14:57:29,974 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\holomdl2.ttf
+2020-11-09 14:57:29,974 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\impact.ttf
+2020-11-09 14:57:29,974 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Inkfree.ttf
+2020-11-09 14:57:29,974 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\javatext.ttf
+2020-11-09 14:57:29,974 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\LeelaUIb.ttf
+2020-11-09 14:57:29,975 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\LeelawUI.ttf
+2020-11-09 14:57:29,975 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\LeelUIsl.ttf
+2020-11-09 14:57:29,975 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\lucon.ttf
+2020-11-09 14:57:29,975 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\l_10646.ttf
+2020-11-09 14:57:29,975 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\malgun.ttf
+2020-11-09 14:57:29,975 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\malgunbd.ttf
+2020-11-09 14:57:29,976 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\malgunsl.ttf
+2020-11-09 14:57:29,976 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\marlett.ttf
+2020-11-09 14:57:29,976 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\micross.ttf
+2020-11-09 14:57:29,976 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\mmrtext.ttf
+2020-11-09 14:57:29,976 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\mmrtextb.ttf
+2020-11-09 14:57:29,976 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\monbaiti.ttf
+2020-11-09 14:57:29,977 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msyi.ttf
+2020-11-09 14:57:29,977 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\mvboli.ttf
+2020-11-09 14:57:29,977 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Nirmala.ttf
+2020-11-09 14:57:29,977 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\NirmalaB.ttf
+2020-11-09 14:57:29,977 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\NirmalaS.ttf
+2020-11-09 14:57:29,977 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\ntailu.ttf
+2020-11-09 14:57:29,977 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\ntailub.ttf
+2020-11-09 14:57:29,978 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\pala.ttf
+2020-11-09 14:57:29,978 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\palab.ttf
+2020-11-09 14:57:29,978 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\palabi.ttf
+2020-11-09 14:57:29,978 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\palai.ttf
+2020-11-09 14:57:29,978 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\phagspa.ttf
+2020-11-09 14:57:29,978 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\phagspab.ttf
+2020-11-09 14:57:29,979 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segmdl2.ttf
+2020-11-09 14:57:29,979 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoepr.ttf
+2020-11-09 14:57:29,979 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoeprb.ttf
+2020-11-09 14:57:29,979 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoesc.ttf
+2020-11-09 14:57:29,979 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoescb.ttf
+2020-11-09 14:57:29,979 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoeui.ttf
+2020-11-09 14:57:29,980 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoeuib.ttf
+2020-11-09 14:57:29,980 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoeuii.ttf
+2020-11-09 14:57:29,980 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoeuil.ttf
+2020-11-09 14:57:29,980 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoeuisl.ttf
+2020-11-09 14:57:29,980 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\segoeuiz.ttf
+2020-11-09 14:57:29,980 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguibl.ttf
+2020-11-09 14:57:29,981 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguibli.ttf
+2020-11-09 14:57:29,981 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguiemj.ttf
+2020-11-09 14:57:29,981 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguihis.ttf
+2020-11-09 14:57:29,981 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguili.ttf
+2020-11-09 14:57:29,981 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguisb.ttf
+2020-11-09 14:57:29,981 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguisbi.ttf
+2020-11-09 14:57:29,982 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguisli.ttf
+2020-11-09 14:57:29,982 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\seguisym.ttf
+2020-11-09 14:57:29,982 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\simsunb.ttf
+2020-11-09 14:57:29,982 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\sylfaen.ttf
+2020-11-09 14:57:29,982 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\symbol.ttf
+2020-11-09 14:57:29,982 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\tahoma.ttf
+2020-11-09 14:57:29,982 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\tahomabd.ttf
+2020-11-09 14:57:29,983 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\taile.ttf
+2020-11-09 14:57:29,983 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\taileb.ttf
+2020-11-09 14:57:29,983 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\times.ttf
+2020-11-09 14:57:29,983 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\timesbd.ttf
+2020-11-09 14:57:29,983 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\timesbi.ttf
+2020-11-09 14:57:29,983 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\timesi.ttf
+2020-11-09 14:57:29,984 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\trebuc.ttf
+2020-11-09 14:57:29,984 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\trebucbd.ttf
+2020-11-09 14:57:29,984 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\trebucbi.ttf
+2020-11-09 14:57:29,984 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\trebucit.ttf
+2020-11-09 14:57:29,984 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\verdana.ttf
+2020-11-09 14:57:29,984 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\verdanab.ttf
+2020-11-09 14:57:29,985 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\verdanai.ttf
+2020-11-09 14:57:29,985 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\verdanaz.ttf
+2020-11-09 14:57:29,985 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\webdings.ttf
+2020-11-09 14:57:29,985 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\wingding.ttf
+2020-11-09 14:57:29,985 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\cambria.ttc
+2020-11-09 14:57:29,985 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\mingliub.ttc
+2020-11-09 14:57:29,986 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msgothic.ttc
+2020-11-09 14:57:29,986 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msjh.ttc
+2020-11-09 14:57:29,986 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msjhbd.ttc
+2020-11-09 14:57:29,986 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msjhl.ttc
+2020-11-09 14:57:29,986 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msyh.ttc
+2020-11-09 14:57:29,986 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msyhbd.ttc
+2020-11-09 14:57:29,987 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\msyhl.ttc
+2020-11-09 14:57:29,987 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\simsun.ttc
+2020-11-09 14:57:29,987 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\Sitka.ttc
+2020-11-09 14:57:29,987 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\SitkaB.ttc
+2020-11-09 14:57:29,987 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\SitkaI.ttc
+2020-11-09 14:57:29,987 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\SitkaZ.ttc
+2020-11-09 14:57:29,988 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\YuGothB.ttc
+2020-11-09 14:57:29,988 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\YuGothL.ttc
+2020-11-09 14:57:29,988 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\YuGothM.ttc
+2020-11-09 14:57:29,988 - font_manager.__init__ - DEBUG - trying fontname C:\Windows\Fonts\YuGothR.ttc
+2020-11-09 14:57:29,988 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\arial.ttf
+2020-11-09 14:57:29,991 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,059 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,063 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\ariblk.ttf
+2020-11-09 14:57:30,065 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,065 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,067 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\arialbd.ttf
+2020-11-09 14:57:30,068 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,069 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,071 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\arialbi.ttf
+2020-11-09 14:57:30,073 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,073 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,076 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\ariali.ttf
+2020-11-09 14:57:30,077 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,077 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,080 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\bahnschrift.ttf
+2020-11-09 14:57:30,081 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,081 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,083 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\calibri.ttf
+2020-11-09 14:57:30,086 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,087 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,088 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\calibrib.ttf
+2020-11-09 14:57:30,092 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,093 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,094 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\calibriz.ttf
+2020-11-09 14:57:30,097 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,097 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,099 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\calibrii.ttf
+2020-11-09 14:57:30,101 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,102 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,103 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\calibril.ttf
+2020-11-09 14:57:30,106 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,106 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,108 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\calibrili.ttf
+2020-11-09 14:57:30,110 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,111 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,112 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\cambria.ttc
+2020-11-09 14:57:30,120 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,120 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,122 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,122 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,123 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\cambriab.ttf
+2020-11-09 14:57:30,125 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,126 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,127 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\cambriaz.ttf
+2020-11-09 14:57:30,129 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,129 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,131 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\cambriai.ttf
+2020-11-09 14:57:30,132 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,133 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,134 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\candara.ttf
+2020-11-09 14:57:30,135 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,136 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,137 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\candarab.ttf
+2020-11-09 14:57:30,138 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,139 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,140 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\candaraz.ttf
+2020-11-09 14:57:30,141 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,142 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,143 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\candarai.ttf
+2020-11-09 14:57:30,144 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,144 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,146 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\candaral.ttf
+2020-11-09 14:57:30,147 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,147 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,149 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\candarali.ttf
+2020-11-09 14:57:30,150 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,150 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,152 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\comic.ttf
+2020-11-09 14:57:30,153 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,153 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,155 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\comicbd.ttf
+2020-11-09 14:57:30,156 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,156 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,158 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\comicz.ttf
+2020-11-09 14:57:30,160 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,160 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,162 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\comici.ttf
+2020-11-09 14:57:30,163 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,163 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,165 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\consola.ttf
+2020-11-09 14:57:30,167 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,167 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,168 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\consolab.ttf
+2020-11-09 14:57:30,170 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,170 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,171 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\consolaz.ttf
+2020-11-09 14:57:30,172 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,173 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,174 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\consolai.ttf
+2020-11-09 14:57:30,176 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,176 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,177 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\constan.ttf
+2020-11-09 14:57:30,178 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,179 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,180 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\constanb.ttf
+2020-11-09 14:57:30,181 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,182 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,183 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\constanz.ttf
+2020-11-09 14:57:30,184 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,185 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,186 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\constani.ttf
+2020-11-09 14:57:30,187 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,187 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,189 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\corbel.ttf
+2020-11-09 14:57:30,190 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,190 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,192 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\corbelb.ttf
+2020-11-09 14:57:30,193 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,193 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,194 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\corbelz.ttf
+2020-11-09 14:57:30,196 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,196 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,197 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\corbeli.ttf
+2020-11-09 14:57:30,199 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,199 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,200 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\corbell.ttf
+2020-11-09 14:57:30,201 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,202 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,203 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\corbelli.ttf
+2020-11-09 14:57:30,204 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,204 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,206 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\cour.ttf
+2020-11-09 14:57:30,207 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,208 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,210 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\courbd.ttf
+2020-11-09 14:57:30,212 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,213 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,215 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\courbi.ttf
+2020-11-09 14:57:30,216 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,217 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,219 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\couri.ttf
+2020-11-09 14:57:30,220 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,221 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,223 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\ebrima.ttf
+2020-11-09 14:57:30,225 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,226 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,226 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\ebrimabd.ttf
+2020-11-09 14:57:30,229 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,229 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,230 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\framd.ttf
+2020-11-09 14:57:30,231 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,231 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,233 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\framdit.ttf
+2020-11-09 14:57:30,234 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,234 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,236 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\gabriola.ttf
+2020-11-09 14:57:30,239 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,240 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,241 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\gadugi.ttf
+2020-11-09 14:57:30,242 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,243 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,244 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\gadugib.ttf
+2020-11-09 14:57:30,245 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,245 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,246 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\georgia.ttf
+2020-11-09 14:57:30,247 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,247 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,249 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\georgiab.ttf
+2020-11-09 14:57:30,251 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,251 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,253 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\georgiaz.ttf
+2020-11-09 14:57:30,254 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,255 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,257 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\georgiai.ttf
+2020-11-09 14:57:30,258 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,258 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,260 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\impact.ttf
+2020-11-09 14:57:30,261 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,262 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,263 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\inkfree.ttf
+2020-11-09 14:57:30,264 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,264 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,266 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\javatext.ttf
+2020-11-09 14:57:30,267 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,267 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,268 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\leelawui.ttf
+2020-11-09 14:57:30,269 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,270 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,271 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\leelauib.ttf
+2020-11-09 14:57:30,272 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,272 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,274 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\leeluisl.ttf
+2020-11-09 14:57:30,275 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,276 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,277 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\lucon.ttf
+2020-11-09 14:57:30,278 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,279 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,280 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\l_10646.ttf
+2020-11-09 14:57:30,281 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,281 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,283 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\malgun.ttf
+2020-11-09 14:57:30,301 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,301 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,302 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\malgunbd.ttf
+2020-11-09 14:57:30,322 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,322 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,324 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\malgunsl.ttf
+2020-11-09 14:57:30,333 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,334 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,335 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\himalaya.ttf
+2020-11-09 14:57:30,338 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,338 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,339 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msjh.ttc
+2020-11-09 14:57:30,415 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,416 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,417 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,418 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,419 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msjhbd.ttc
+2020-11-09 14:57:30,483 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,484 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,486 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,486 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,488 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msjhl.ttc
+2020-11-09 14:57:30,538 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,538 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,540 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,541 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,542 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\ntailu.ttf
+2020-11-09 14:57:30,544 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,544 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,546 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\ntailub.ttf
+2020-11-09 14:57:30,547 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,548 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,549 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\phagspa.ttf
+2020-11-09 14:57:30,550 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,551 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,551 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\phagspab.ttf
+2020-11-09 14:57:30,552 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,553 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,553 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\micross.ttf
+2020-11-09 14:57:30,555 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,556 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,557 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\taile.ttf
+2020-11-09 14:57:30,558 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,558 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,559 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\taileb.ttf
+2020-11-09 14:57:30,560 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,561 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,561 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msyh.ttc
+2020-11-09 14:57:30,633 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,634 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,635 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,636 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,637 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msyhbd.ttc
+2020-11-09 14:57:30,707 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,708 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,710 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,710 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,712 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msyhl.ttc
+2020-11-09 14:57:30,765 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,766 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,768 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,768 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,770 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msyi.ttf
+2020-11-09 14:57:30,772 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,773 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,774 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\mingliub.ttc
+2020-11-09 14:57:30,983 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,983 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,985 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,986 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,987 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,987 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,988 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\monbaiti.ttf
+2020-11-09 14:57:30,990 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:30,991 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:30,992 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\msgothic.ttc
+2020-11-09 14:57:31,080 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,080 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,081 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,082 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,083 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,083 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,084 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\mvboli.ttf
+2020-11-09 14:57:31,085 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,085 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,087 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\mmrtext.ttf
+2020-11-09 14:57:31,088 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,088 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,089 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\mmrtextb.ttf
+2020-11-09 14:57:31,090 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,091 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,092 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\nirmala.ttf
+2020-11-09 14:57:31,096 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,096 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,098 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\nirmalab.ttf
+2020-11-09 14:57:31,102 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,103 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,105 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\nirmalas.ttf
+2020-11-09 14:57:31,109 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,109 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,111 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\pala.ttf
+2020-11-09 14:57:31,113 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,113 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,115 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\palab.ttf
+2020-11-09 14:57:31,116 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,117 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,119 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\palabi.ttf
+2020-11-09 14:57:31,120 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,120 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,123 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\palai.ttf
+2020-11-09 14:57:31,124 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,125 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,127 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segmdl2.ttf
+2020-11-09 14:57:31,128 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,128 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,130 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoepr.ttf
+2020-11-09 14:57:31,131 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,131 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,132 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoeprb.ttf
+2020-11-09 14:57:31,133 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,134 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,134 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoesc.ttf
+2020-11-09 14:57:31,136 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,136 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,138 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoescb.ttf
+2020-11-09 14:57:31,139 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,140 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,140 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoeui.ttf
+2020-11-09 14:57:31,142 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,143 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,144 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguibl.ttf
+2020-11-09 14:57:31,145 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,145 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,146 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguibli.ttf
+2020-11-09 14:57:31,147 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,148 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,148 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoeuib.ttf
+2020-11-09 14:57:31,150 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,150 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,152 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoeuiz.ttf
+2020-11-09 14:57:31,153 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,154 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,156 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguiemj.ttf
+2020-11-09 14:57:31,159 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,160 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,161 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguihis.ttf
+2020-11-09 14:57:31,166 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,166 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,167 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoeuii.ttf
+2020-11-09 14:57:31,169 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,170 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,172 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoeuil.ttf
+2020-11-09 14:57:31,173 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,174 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,174 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguili.ttf
+2020-11-09 14:57:31,176 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,176 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,177 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguisb.ttf
+2020-11-09 14:57:31,179 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,179 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,180 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguisbi.ttf
+2020-11-09 14:57:31,181 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,182 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,183 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\segoeuisl.ttf
+2020-11-09 14:57:31,184 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,184 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,185 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguisli.ttf
+2020-11-09 14:57:31,186 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,187 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,187 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\seguisym.ttf
+2020-11-09 14:57:31,191 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,192 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,193 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\simsun.ttc
+2020-11-09 14:57:31,265 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,266 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,267 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,267 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,268 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\simsunb.ttf
+2020-11-09 14:57:31,287 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,287 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,289 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\sitka.ttc
+2020-11-09 14:57:31,312 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,313 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,315 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,316 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,318 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,318 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,321 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,321 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,323 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,323 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,325 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,325 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,327 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\sitkab.ttc
+2020-11-09 14:57:31,338 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,338 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,340 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,341 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,342 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,342 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,344 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,344 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,345 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,346 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,347 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,347 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,349 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\sitkaz.ttc
+2020-11-09 14:57:31,360 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,361 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,362 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,363 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,364 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,364 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,366 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,366 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,367 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,368 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,369 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,369 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,371 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\sitkai.ttc
+2020-11-09 14:57:31,382 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,382 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,384 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,384 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,386 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,386 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,387 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,388 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,389 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,389 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,391 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,391 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,392 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\sylfaen.ttf
+2020-11-09 14:57:31,394 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,394 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,395 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\symbol.ttf
+2020-11-09 14:57:31,396 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,397 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,398 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\tahoma.ttf
+2020-11-09 14:57:31,401 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,401 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,402 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\tahomabd.ttf
+2020-11-09 14:57:31,404 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,405 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,407 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\times.ttf
+2020-11-09 14:57:31,410 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,410 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,412 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\timesbd.ttf
+2020-11-09 14:57:31,415 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,415 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,417 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\timesbi.ttf
+2020-11-09 14:57:31,420 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,420 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,422 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\timesi.ttf
+2020-11-09 14:57:31,425 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,425 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,427 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\trebuc.ttf
+2020-11-09 14:57:31,429 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,430 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,431 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\trebucbd.ttf
+2020-11-09 14:57:31,432 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,433 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,434 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\trebucbi.ttf
+2020-11-09 14:57:31,436 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,436 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,438 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\trebucit.ttf
+2020-11-09 14:57:31,439 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,439 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,441 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\verdana.ttf
+2020-11-09 14:57:31,443 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,444 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,445 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\verdanab.ttf
+2020-11-09 14:57:31,446 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,446 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,448 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\verdanaz.ttf
+2020-11-09 14:57:31,450 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,450 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,452 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\verdanai.ttf
+2020-11-09 14:57:31,453 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,453 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,455 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\webdings.ttf
+2020-11-09 14:57:31,456 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,457 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,458 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\wingding.ttf
+2020-11-09 14:57:31,459 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,460 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,461 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\yugothb.ttc
+2020-11-09 14:57:31,549 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,550 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,551 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,552 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,553 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,553 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,553 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\yugothl.ttc
+2020-11-09 14:57:31,626 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,627 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,628 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,629 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,630 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\yugothm.ttc
+2020-11-09 14:57:31,702 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,703 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,703 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,704 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,704 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\yugothr.ttc
+2020-11-09 14:57:31,807 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,808 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,809 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,809 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,809 - font_manager.createFontList - DEBUG - createFontDict c:\windows\fonts\holomdl2.ttf
+2020-11-09 14:57:31,811 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,811 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,812 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\arial.ttf
+2020-11-09 14:57:31,812 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\arialbd.ttf
+2020-11-09 14:57:31,812 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\arialbi.ttf
+2020-11-09 14:57:31,813 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\ariali.ttf
+2020-11-09 14:57:31,813 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\ariblk.ttf
+2020-11-09 14:57:31,813 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\bahnschrift.ttf
+2020-11-09 14:57:31,813 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\calibri.ttf
+2020-11-09 14:57:31,813 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\calibrib.ttf
+2020-11-09 14:57:31,814 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\calibrii.ttf
+2020-11-09 14:57:31,814 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\calibril.ttf
+2020-11-09 14:57:31,814 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\calibrili.ttf
+2020-11-09 14:57:31,814 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\calibriz.ttf
+2020-11-09 14:57:31,814 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\cambriab.ttf
+2020-11-09 14:57:31,814 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\cambriai.ttf
+2020-11-09 14:57:31,815 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\cambriaz.ttf
+2020-11-09 14:57:31,815 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Candara.ttf
+2020-11-09 14:57:31,816 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,816 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,818 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Candarab.ttf
+2020-11-09 14:57:31,819 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,819 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,820 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Candarai.ttf
+2020-11-09 14:57:31,823 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,823 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,825 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Candaral.ttf
+2020-11-09 14:57:31,826 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,826 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,828 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Candarali.ttf
+2020-11-09 14:57:31,829 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,829 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,831 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Candaraz.ttf
+2020-11-09 14:57:31,832 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,832 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,833 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\comic.ttf
+2020-11-09 14:57:31,834 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\comicbd.ttf
+2020-11-09 14:57:31,834 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\comici.ttf
+2020-11-09 14:57:31,834 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\comicz.ttf
+2020-11-09 14:57:31,834 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\consola.ttf
+2020-11-09 14:57:31,834 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\consolab.ttf
+2020-11-09 14:57:31,835 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\consolai.ttf
+2020-11-09 14:57:31,835 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\consolaz.ttf
+2020-11-09 14:57:31,835 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\constan.ttf
+2020-11-09 14:57:31,835 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\constanb.ttf
+2020-11-09 14:57:31,835 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\constani.ttf
+2020-11-09 14:57:31,835 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\constanz.ttf
+2020-11-09 14:57:31,836 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\corbel.ttf
+2020-11-09 14:57:31,836 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\corbelb.ttf
+2020-11-09 14:57:31,836 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\corbeli.ttf
+2020-11-09 14:57:31,836 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\corbell.ttf
+2020-11-09 14:57:31,836 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\corbelli.ttf
+2020-11-09 14:57:31,837 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\corbelz.ttf
+2020-11-09 14:57:31,837 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\cour.ttf
+2020-11-09 14:57:31,837 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\courbd.ttf
+2020-11-09 14:57:31,837 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\courbi.ttf
+2020-11-09 14:57:31,837 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\couri.ttf
+2020-11-09 14:57:31,837 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\ebrima.ttf
+2020-11-09 14:57:31,838 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\ebrimabd.ttf
+2020-11-09 14:57:31,838 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\framd.ttf
+2020-11-09 14:57:31,838 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\framdit.ttf
+2020-11-09 14:57:31,838 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Gabriola.ttf
+2020-11-09 14:57:31,841 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,842 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,842 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\gadugi.ttf
+2020-11-09 14:57:31,843 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\gadugib.ttf
+2020-11-09 14:57:31,843 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\georgia.ttf
+2020-11-09 14:57:31,843 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\georgiab.ttf
+2020-11-09 14:57:31,843 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\georgiai.ttf
+2020-11-09 14:57:31,843 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\georgiaz.ttf
+2020-11-09 14:57:31,844 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\himalaya.ttf
+2020-11-09 14:57:31,844 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\holomdl2.ttf
+2020-11-09 14:57:31,844 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\impact.ttf
+2020-11-09 14:57:31,844 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Inkfree.ttf
+2020-11-09 14:57:31,845 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,846 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,847 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\javatext.ttf
+2020-11-09 14:57:31,847 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\LeelaUIb.ttf
+2020-11-09 14:57:31,849 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,849 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,851 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\LeelawUI.ttf
+2020-11-09 14:57:31,852 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,852 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,854 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\LeelUIsl.ttf
+2020-11-09 14:57:31,855 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,855 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,857 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\lucon.ttf
+2020-11-09 14:57:31,857 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\l_10646.ttf
+2020-11-09 14:57:31,857 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\malgun.ttf
+2020-11-09 14:57:31,858 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\malgunbd.ttf
+2020-11-09 14:57:31,858 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\malgunsl.ttf
+2020-11-09 14:57:31,858 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\marlett.ttf
+2020-11-09 14:57:31,859 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,860 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,860 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\micross.ttf
+2020-11-09 14:57:31,861 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\mmrtext.ttf
+2020-11-09 14:57:31,861 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\mmrtextb.ttf
+2020-11-09 14:57:31,861 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\monbaiti.ttf
+2020-11-09 14:57:31,861 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msyi.ttf
+2020-11-09 14:57:31,861 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\mvboli.ttf
+2020-11-09 14:57:31,861 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Nirmala.ttf
+2020-11-09 14:57:31,864 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,864 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,866 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\NirmalaB.ttf
+2020-11-09 14:57:31,869 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,869 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,871 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\NirmalaS.ttf
+2020-11-09 14:57:31,874 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,874 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,876 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\ntailu.ttf
+2020-11-09 14:57:31,876 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\ntailub.ttf
+2020-11-09 14:57:31,876 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\pala.ttf
+2020-11-09 14:57:31,876 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\palab.ttf
+2020-11-09 14:57:31,877 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\palabi.ttf
+2020-11-09 14:57:31,877 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\palai.ttf
+2020-11-09 14:57:31,877 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\phagspa.ttf
+2020-11-09 14:57:31,877 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\phagspab.ttf
+2020-11-09 14:57:31,877 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segmdl2.ttf
+2020-11-09 14:57:31,877 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoepr.ttf
+2020-11-09 14:57:31,878 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoeprb.ttf
+2020-11-09 14:57:31,878 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoesc.ttf
+2020-11-09 14:57:31,878 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoescb.ttf
+2020-11-09 14:57:31,878 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoeui.ttf
+2020-11-09 14:57:31,878 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoeuib.ttf
+2020-11-09 14:57:31,879 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoeuii.ttf
+2020-11-09 14:57:31,879 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoeuil.ttf
+2020-11-09 14:57:31,879 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoeuisl.ttf
+2020-11-09 14:57:31,879 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\segoeuiz.ttf
+2020-11-09 14:57:31,879 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguibl.ttf
+2020-11-09 14:57:31,879 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguibli.ttf
+2020-11-09 14:57:31,880 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguiemj.ttf
+2020-11-09 14:57:31,880 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguihis.ttf
+2020-11-09 14:57:31,880 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguili.ttf
+2020-11-09 14:57:31,880 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguisb.ttf
+2020-11-09 14:57:31,880 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguisbi.ttf
+2020-11-09 14:57:31,880 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguisli.ttf
+2020-11-09 14:57:31,881 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\seguisym.ttf
+2020-11-09 14:57:31,881 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\simsunb.ttf
+2020-11-09 14:57:31,881 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\sylfaen.ttf
+2020-11-09 14:57:31,881 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\symbol.ttf
+2020-11-09 14:57:31,881 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\tahoma.ttf
+2020-11-09 14:57:31,882 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\tahomabd.ttf
+2020-11-09 14:57:31,882 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\taile.ttf
+2020-11-09 14:57:31,882 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\taileb.ttf
+2020-11-09 14:57:31,882 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\times.ttf
+2020-11-09 14:57:31,882 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\timesbd.ttf
+2020-11-09 14:57:31,882 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\timesbi.ttf
+2020-11-09 14:57:31,883 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\timesi.ttf
+2020-11-09 14:57:31,883 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\trebuc.ttf
+2020-11-09 14:57:31,883 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\trebucbd.ttf
+2020-11-09 14:57:31,883 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\trebucbi.ttf
+2020-11-09 14:57:31,883 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\trebucit.ttf
+2020-11-09 14:57:31,883 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\verdana.ttf
+2020-11-09 14:57:31,884 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\verdanab.ttf
+2020-11-09 14:57:31,884 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\verdanai.ttf
+2020-11-09 14:57:31,884 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\verdanaz.ttf
+2020-11-09 14:57:31,884 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\webdings.ttf
+2020-11-09 14:57:31,884 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\wingding.ttf
+2020-11-09 14:57:31,884 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\cambria.ttc
+2020-11-09 14:57:31,885 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\mingliub.ttc
+2020-11-09 14:57:31,885 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msgothic.ttc
+2020-11-09 14:57:31,885 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msjh.ttc
+2020-11-09 14:57:31,885 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msjhbd.ttc
+2020-11-09 14:57:31,885 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msjhl.ttc
+2020-11-09 14:57:31,886 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msyh.ttc
+2020-11-09 14:57:31,886 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msyhbd.ttc
+2020-11-09 14:57:31,886 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\msyhl.ttc
+2020-11-09 14:57:31,886 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\simsun.ttc
+2020-11-09 14:57:31,886 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\Sitka.ttc
+2020-11-09 14:57:31,902 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,902 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,905 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,905 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,907 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,908 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,910 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,911 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,913 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,913 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,915 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,915 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,916 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\SitkaB.ttc
+2020-11-09 14:57:31,927 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,927 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,928 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,929 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,930 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,930 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,932 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,932 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,933 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,934 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,935 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,935 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,937 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\SitkaI.ttc
+2020-11-09 14:57:31,949 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,949 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,952 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,952 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,953 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,954 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,955 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,955 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,957 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,957 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,958 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,959 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,960 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\SitkaZ.ttc
+2020-11-09 14:57:31,971 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,972 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,973 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,974 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,975 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,975 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,977 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,977 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,978 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,979 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,980 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:31,980 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:31,982 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\YuGothB.ttc
+2020-11-09 14:57:32,044 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,044 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,045 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,045 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,046 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,046 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,047 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\YuGothL.ttc
+2020-11-09 14:57:32,103 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,104 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,105 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,106 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,107 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\YuGothM.ttc
+2020-11-09 14:57:32,160 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,160 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,161 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,161 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,162 - font_manager.createFontList - DEBUG - createFontDict C:\Windows\Fonts\YuGothR.ttc
+2020-11-09 14:57:32,212 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,212 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,213 - ttFont.__getitem__ - DEBUG - Reading 'name' table from disk
+2020-11-09 14:57:32,213 - ttFont.__getitem__ - DEBUG - Decompiling 'name' table
+2020-11-09 14:57:32,239 - font_manager._rebuild - DEBUG - generated new fontManager
+2020-11-09 14:57:32,245 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-09 14:57:32,254 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000

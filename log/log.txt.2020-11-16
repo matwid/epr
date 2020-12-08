@@ -1,0 +1,1437 @@
+2020-11-17 11:19:06,450 - epr.<module> - INFO - Starting logger.
+2020-11-17 11:19:08,431 - emod.start - INFO - Starting Job Manager.
+2020-11-17 11:19:08,438 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 11:19:08,539 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 11:19:53,659 - epr.<module> - INFO - Starting logger.
+2020-11-17 11:19:53,659 - epr.<module> - INFO - Starting logger.
+2020-11-17 11:19:53,670 - emod.start - INFO - Starting Job Manager.
+2020-11-17 11:19:53,670 - emod.start - INFO - Starting Job Manager.
+2020-11-17 11:19:53,676 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 11:19:53,676 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 11:19:53,780 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 11:19:53,780 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 11:20:06,376 - epr.<module> - INFO - Starting logger.
+2020-11-17 11:20:06,376 - epr.<module> - INFO - Starting logger.
+2020-11-17 11:20:06,376 - epr.<module> - INFO - Starting logger.
+2020-11-17 11:20:06,387 - emod.start - INFO - Starting Job Manager.
+2020-11-17 11:20:06,387 - emod.start - INFO - Starting Job Manager.
+2020-11-17 11:20:06,387 - emod.start - INFO - Starting Job Manager.
+2020-11-17 11:20:06,397 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 11:20:06,397 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 11:20:06,397 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 11:20:06,511 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 11:20:06,511 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 11:20:06,511 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:28:18,127 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:28:18,127 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:28:18,127 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:28:18,127 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:28:18,134 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:28:18,134 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:28:18,134 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:28:18,134 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:28:18,144 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:28:18,144 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:28:18,144 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:28:18,144 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:28:18,243 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:28:18,243 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:28:18,243 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:28:18,243 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:30:19,530 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:30:19,530 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:30:19,530 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:30:19,530 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:30:19,530 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:30:19,541 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:30:19,541 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:30:19,541 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:30:19,541 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:30:19,541 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:30:19,555 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:30:19,555 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:30:19,555 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:30:19,555 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:30:19,555 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:30:19,661 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:30:19,661 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:30:19,661 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:30:19,661 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:30:19,661 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:59:55,351 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:59:55,351 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:59:55,351 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:59:55,351 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:59:55,351 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:59:55,351 - epr.<module> - INFO - Starting logger.
+2020-11-17 13:59:55,360 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:59:55,360 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:59:55,360 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:59:55,360 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:59:55,360 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:59:55,360 - emod.start - INFO - Starting Job Manager.
+2020-11-17 13:59:55,374 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:59:55,374 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:59:55,374 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:59:55,374 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:59:55,374 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:59:55,374 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 13:59:55,479 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:59:55,479 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:59:55,479 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:59:55,479 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:59:55,479 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 13:59:55,479 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:09,302 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:09,302 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:09,302 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:09,302 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:09,302 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:09,302 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:09,302 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:09,316 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:09,316 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:09,316 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:09,316 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:09,316 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:09,316 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:09,316 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:09,332 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:09,332 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:09,332 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:09,332 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:09,332 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:09,332 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:09,332 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:09,432 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:09,432 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:09,432 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:09,432 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:09,432 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:09,432 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:09,432 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,161 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,174 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,188 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:00:20,286 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,938 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,961 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:07,975 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:08,089 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,245 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,269 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,291 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:50:55,398 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,056 - epr.<module> - INFO - Starting logger.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,082 - emod.start - INFO - Starting Job Manager.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,109 - cron.run - INFO - Starting Cron Daemon.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 14:51:35,208 - emod._process - DEBUG - No job running. No job in queue. Waiting for notification.
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:34,867 - cache._load_from_file_system - DEBUG - pickle loaded: C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,720 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,722 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,724 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,728 - diff._parse - DEBUG - parse_part from 1 to 2 (to 0 in part parser)
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:36,729 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,156 - diff.update - DEBUG - diff parser start
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,158 - diff.update - DEBUG - line_lengths old: 1; new: 1
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,159 - diff.update - DEBUG - -> code[replace] old[1:1] new[1:1]
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,161 - diff._parse - DEBUG - parse_part from 1 to 1 (to 0 in part parser)
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:49,162 - diff.update - DEBUG - diff parser end
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,983 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:51,994 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-17 15:00:52,058 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:18:51,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D035A50A8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D0358C888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:13,876 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D03413AC8>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D03482888>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-18 13:20:24,309 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.data_range_1d.DataRange1D object at 0x0000018D011ABF48>, trait: sources_items, old value: <undefined>, new value: TraitListEvent(index=0, removed=[], added=[<chaco.array_data_source.ArrayDataSource object at 0x0000018D006D9108>])
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 380, in _sources_items_changed
+    self.refresh()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 07:17:56,141 - epr.<module> - INFO - Starting logger.
+2020-11-21 07:18:54,333 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Computer\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-11-21 07:18:54,341 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-21 07:18:54,373 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 16.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-21 09:56:17,572 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 09:56:17,896 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-11-21 10:02:55,702 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:03:24,969 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:03:35,451 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 116, in _run
+    measured_voltage = self._input_readout() # <------- hier weiter machen
+  File "C:\Users\Computer\epr\measurements\epr.py", line 143, in _input_readout
+    with nidaqmx.Task() as task:
+NameError: name 'nidaqmx' is not defined
+2020-11-21 10:04:14,685 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:04:17,165 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 119, in _run
+    s
+NameError: name 's' is not defined
+2020-11-21 10:04:21,412 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 119, in _run
+    s
+NameError: name 's' is not defined
+2020-11-21 10:04:44,507 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 119, in _run
+NameError: name 's' is not defined
+2020-11-21 10:04:48,563 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR20-11-21_10h04m44, stopped 6116)>
+2020-11-21 10:04:48,563 - utility.stop - DEBUG - Thread <StoppableThread(EPR20-11-21_10h04m44, stopped 6116)> is not running. Continuing...
+2020-11-21 10:04:50,062 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR20-11-21_10h04m44, stopped 6116)>
+2020-11-21 10:04:50,063 - utility.stop - DEBUG - Thread <StoppableThread(EPR20-11-21_10h04m44, stopped 6116)> is not running. Continuing...
+2020-11-21 10:04:53,211 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:27:40,784 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:27:43,542 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 119, in _run
+    measured_voltage = f1 # <------- hier weiter machen
+NameError: name 'f1' is not defined
+2020-11-21 10:28:52,995 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:28:55,604 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 120, in _run
+    f1 = executor.submit(_input_readout)
+NameError: name '_input_readout' is not defined
+2020-11-21 10:29:38,927 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:29:41,145 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,081 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,097 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,109 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,122 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,268 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,481 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,686 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:42,891 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:29:43,105 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0C09BBE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:24,976 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:30:29,747 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:30,473 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:30,483 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:30,488 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:30,593 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:30,798 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:31,015 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:31,220 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:31,423 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:30:31,641 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BED5EE8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:31:57,247 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:31:59,438 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:00,182 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:00,191 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:00,203 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:00,311 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:00,516 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:00,735 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:00,953 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:01,158 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:32:01,377 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0BDF7DC8>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:48,317 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:33:51,123 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:51,864 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:51,880 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:51,899 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:52,152 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:52,397 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:52,647 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:52,900 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:53,146 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:33:53,397 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <chaco.array_data_source.ArrayDataSource object at 0x0000021D0F8A5D68>, trait: data_changed, old value: <undefined>, new value: True
+Traceback (most recent call last):
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 484, in dispatch
+    handler(*args)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 206, in refresh
+    self._refresh_bounds()
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 352, in _refresh_bounds
+    bounds_func=self.bounds_func)
+  File "C:\Users\Computer\miniconda3\envs\epr\lib\site-packages\chaco\data_range_1d.py", line 464, in calc_bounds
+    if isnan(real_max) or isnan(real_min):
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+2020-11-21 10:34:37,053 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:34:41,343 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 120, in _run
+    measured_voltage = _input_readout() # <------- hier weiter machen
+NameError: name '_input_readout' is not defined
+2020-11-21 10:35:31,024 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:59:46,507 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 10:59:48,943 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Computer\epr\measurements\epr.py", line 124, in _run
+    t1 = threading.Thread(target=_input_readout, args=(self,))
+NameError: name 'threading' is not defined
+2020-11-21 11:00:20,741 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 11:01:55,191 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 11:02:42,117 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 11:04:24,039 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 12:09:48,110 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-11-21 12:20:48,045 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
