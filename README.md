@@ -17,6 +17,8 @@ The EPR *project* provides the measurement software for the EPR lab course as co
 --------
 1. get [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 2. conda env create -f conda_epr.yml
+3. install Microsoft Visual C++ 14.0 or greater (https://visualstudio.microsoft.com/de/visual-cpp-build-tools/)
+4. pip install pillow, nidaqmx, fonttools, enable, chaco
 
 #Run
 ----

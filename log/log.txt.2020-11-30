@@ -1,0 +1,36 @@
+2020-12-04 06:26:06,607 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:27:06,006 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:29:29,027 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:30:05,389 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:32:20,441 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:34:42,805 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:42:07,646 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:43:46,903 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:44:30,735 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:44:55,473 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:47:09,793 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR20-12-04_06h46m11, started 11664)>
+2020-12-04 06:47:09,900 - epr._run - DEBUG - Caught stop signal. Exiting.
+2020-12-04 06:47:49,497 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 06:49:37,230 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 10:41:38,951 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 10:42:07,149 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR20-12-04_10h41m54, started 10400)>
+2020-12-04 10:42:07,187 - epr._run - DEBUG - Caught stop signal. Exiting.
+2020-12-04 11:16:06,322 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR20-12-04_11h15m55, started 1128)>
+2020-12-04 11:16:06,346 - epr._run - DEBUG - Caught stop signal. Exiting.
+2020-12-04 11:19:17,260 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:41:10,229 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:41:28,271 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR20-12-04_11h41m15, stopped 5276)>
+2020-12-04 11:41:28,271 - utility.stop - DEBUG - Thread <StoppableThread(EPR20-12-04_11h41m15, stopped 5276)> is not running. Continuing...
+2020-12-04 11:42:18,376 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:42:26,630 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR20-12-04_11h42m23, started 12628)>
+2020-12-04 11:42:26,631 - epr._run - DEBUG - Caught stop signal. Exiting.
+2020-12-04 11:43:03,122 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:44:17,282 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:45:28,853 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:46:28,755 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:48:09,426 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:48:54,543 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:49:39,253 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:51:14,521 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:52:49,003 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-04 11:53:15,494 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
