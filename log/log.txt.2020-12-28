@@ -1,0 +1,89 @@
+2020-12-29 13:53:12,880 - epr.<module> - INFO - Starting logger.
+2020-12-29 13:53:14,070 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 13:54:09,410 - epr.<module> - INFO - Starting logger.
+2020-12-29 13:54:09,410 - epr.<module> - INFO - Starting logger.
+2020-12-29 13:54:09,410 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 13:54:09,410 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 13:54:11,060 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 13:54:11,060 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 13:54:11,252 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 13:54:11,252 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 13:54:11,257 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 13:54:11,257 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 13:54:11,264 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 13:54:11,264 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 13:55:38,941 - epr.<module> - INFO - Starting logger.
+2020-12-29 13:55:39,250 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 13:55:40,270 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 13:55:40,350 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 13:55:40,355 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 13:55:40,355 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 13:56:40,745 - epr.<module> - INFO - Starting logger.
+2020-12-29 13:56:41,050 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 13:56:42,000 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 13:56:42,080 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 13:56:42,080 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 13:56:42,090 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:01:26,602 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:01:26,912 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:01:48,821 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:01:48,821 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:01:48,821 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:01:48,821 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:01:49,881 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:01:49,881 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:01:49,961 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:01:49,961 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:01:49,961 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:01:49,961 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:01:49,961 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:01:49,961 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:19:03,564 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:19:03,894 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:19:22,495 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:19:22,495 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:19:22,495 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:19:22,495 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:19:23,194 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:19:23,194 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:19:23,265 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:19:23,265 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:19:23,265 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:19:23,265 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:19:23,275 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:19:23,275 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:19:44,194 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:19:44,495 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:19:45,424 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:19:45,505 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:19:45,505 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:19:45,515 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:22:34,405 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:22:34,715 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:22:35,785 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:22:35,855 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:22:35,865 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:22:35,870 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:25:14,296 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:25:14,596 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:25:15,646 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:25:15,726 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:25:15,731 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:25:15,736 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:25:30,735 - epr._run - ERROR - Error in EPR measurement.
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 139, in _run
+    self.y_data           = np.append(self.y_data, measured_voltage)
+NameError: name 'measured_voltage' is not defined
+2020-12-29 14:27:41,426 - epr.<module> - INFO - Starting logger.
+2020-12-29 14:27:41,726 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 14:27:42,776 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 14:27:42,849 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 14:27:42,856 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 14:27:42,861 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 15:24:22,214 - epr.<module> - INFO - Starting logger.
+2020-12-29 15:24:22,525 - cron.run - INFO - Starting Cron Daemon.
+2020-12-29 15:24:23,579 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2020-12-29 15:24:23,659 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2020-12-29 15:24:23,669 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2020-12-29 15:24:23,669 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
