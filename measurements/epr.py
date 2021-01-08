@@ -23,14 +23,14 @@ class EPR( FreeJob, GetSetItemsMixin ):
       last modified
     """
 
-    v_begin           = Range(low=0., high=10.,    value=1.0,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
-    v_end             = Range(low=0.001, high=10.,    value=2.0,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
-    v_bias            = Float(default_value=1.0,lable=' ')
-    v_delta           = Range(low=0., high=10.,       value=.01,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
+    v_begin           = Range(low=0., high=10.,    value=0.14,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
+    v_end             = Range(low=0.001, high=10.,    value=0.17,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
+    v_bias            = Float(default_value=0.1,label=' ')
+    v_delta           = Range(low=0., high=10.,       value=.0001,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
     v_reset           = Float(default_value=0, label='reset voltage')
 
-    seconds_per_point = Float(default_value=.1, desc='Seconds per point', label='Seconds per point', mode='text', auto_set=False, enter_set=True)
+    seconds_per_point = Float(default_value=.001, desc='Seconds per point', label='Seconds per point', mode='text', auto_set=False, enter_set=True)
     proceed           = Float(default_value=0.0, label='proceed [%]')
     time_remain       = Float(default_value=0.0, label='remaining time [min]')
 
@@ -50,7 +50,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
     bias_button = Button(label='set bias', show_label=False)
     bias_measured_button =  Button(label='measuerd bias', show_label=False)
-    bias_value = Float(Value=bias_measured)
+    bias_value = Float()
 
 
     max_current = Float(default_value=10e-3, label='max current')
@@ -130,7 +130,6 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
 
-
             for i,v in enumerate(self.voltage):
 
                 #stop routine
@@ -146,15 +145,17 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 time.sleep(self.seconds_per_point)
 
                 #get data
-                measured_data = self.task_in.read()
-                measured_voltage = measured_data[0]
-                lockin_data = measured_data[1]
-               
+                measured_data = self.task_in.read(50)
+                measured_voltage = np.mean(measured_data[0])
+                lockin_data = np.mean(measured_data[1])
+                self.bias_value = measured_voltage
+
                 #lockin_data = self.task_lockin.read()
 
                 #set the plot dataself.y_data2          = np.append(self.y_data2, measured_counts)
-                self.y_data           = np.append(self.y_data, measured_voltage)
-                self.y_data2           = np.append(self.y_data2, lockin_data)
+                self.y_data2          = np.append(self.y_data2, measured_voltage)
+                self.y_data           = np.append(self.y_data,  lockin_data)
+                #self.y_data           = np.append(self.y_data,  measured_voltage)
                 self.x_data           = np.append(self.x_data,v)
 
                 # update proceeding time
@@ -174,12 +175,12 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
         finally:
-            self.task_out.write(2.87)
+            self.task_out.write(self.v_bias)
             self.set_data_for_get_set_items()
             self.task_in.stop()
             self.task_out.stop()
             
-            print(lockin_data)
+           #print(lockin_data)
             self.state = 'done'
 
     #################################################################
@@ -196,26 +197,18 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.lockin_data  = self.y_data2
 
     def _bias_measured_button_fired(self):
-        bias_measured = self.task_in.read()
-        hall_voltage_measuerd = bias_measured[1]
+        measured_data = self.task_in.read()
+        self.bias_value = measured_data[0]
+
        
 
  
-
-
     def update_time_proceed(self,i,total_length):
         """simply updates the time elapsed"""
         self.proceed    =(float(i)/(float(total_length)))*100
         self.time_remain=((self.seconds_per_point*total_length)-(i*self.seconds_per_point))/60
 
 
-    def _set_bias(self, v_bias):
-        """sets an  analog output"""
-        with nidaqmx.Task() as analog_output_task:
-            analog_output_task.ao_channels.add_ao_voltage_chan("Dev1/ao0","output_channel")
-            analog_output_task.start
-            analog_output_task.write(self.v_bias)
-            analog_output_task.stop
 
     #################################################################
     # PLOT DEFINITIONS
@@ -225,8 +218,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
         plot_data = ArrayPlotData(x_data=np.array(()), y_data=np.array(()),)
         plot = Plot(plot_data, padding=8, padding_left=64, padding_bottom=64)
         plot.plot(('x_data','y_data'), color='blue', type='line')
-        plot.index_axis.title = 'Steuerspannung [V]'
-        plot.value_axis.title = 'Hallspanung [V]'
+        plot.index_axis.title = 'Hallspanung [V]'
+        plot.value_axis.title = 'LogIn Spannung [V]'
         plot.tools.append(SaveTool(plot))
         self.plot_data = plot_data
         self.plot = plot

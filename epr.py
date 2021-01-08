@@ -44,6 +44,8 @@ def shutdown(timeout=1.0):
 # numerical classes that are used everywhere
 import numpy as np
 import nidaqmx
+from nidaqmx import *
+from nidaqmx.constants import *
 #########################################
 # hardware
 #########################################
@@ -64,6 +66,10 @@ task_out = nidaqmx.Task()
 
 task_in.ai_channels.add_ai_voltage_chan("Dev1/ai0")
 task_in.ai_channels.add_ai_voltage_chan("Dev1/ai1")
+task_in.ai_term_cfg=TerminalConfiguration.RSE
+#task_in.timing.cfg_samp_clk_timing(rate=1000)     #source of the sample clock, sample rate and the number of samples to acquire
+task_in.ai_min = 0
+task_in.ai_max = 0.3
 #task_lockin.ai_channels.add_ai_voltage_chan("Dev1/ai1")
 task_out.ao_channels.add_ao_voltage_chan("Dev1/ao0","output_channel")
 
