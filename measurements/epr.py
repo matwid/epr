@@ -15,18 +15,21 @@ import time
 
 
 import threading
-bias_measured = 1.22
+
+
+
 class EPR( FreeJob, GetSetItemsMixin ):
     """
     Measures EPR data.
 
       last modified
     """
+    
 
-    v_begin           = Range(low=0., high=10.,    value=0.14,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
-    v_end             = Range(low=0.001, high=10.,    value=0.17,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
-    v_bias            = Float(default_value=0.1,label=' ')
-    v_delta           = Range(low=0., high=10.,       value=.0001,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
+    v_begin           = Range(low=0., high=10.,    value=4.4,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
+    v_end             = Range(low=0.001, high=10.,    value=4.7,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
+    v_bias            = Float(default_value=4.5,label=' ')
+    v_delta           = Range(low=0., high=10.,       value=.001,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
     v_reset           = Float(default_value=0, label='reset voltage')
 
@@ -103,6 +106,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.on_trait_change(self._update_index,    'x_data',    dispatch='ui')
         self.on_trait_change(self._update_value,    'y_data',    dispatch='ui')
         self.task_out.start()
+
+        self.first_bias = 'true'
     def _run(self):
         #self.task_in = nidaqmx.Task()
         #self.task_out = nidaqmx.Task()
@@ -130,7 +135,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
 
-            for i,v in enumerate(self.voltage):
+            for i,v in enumerate(self.voltage): #Spannung langsam anfahren und ausschalten
+
 
                 #stop routine
                 self.thread.stop_request.wait(self.seconds_per_point)
@@ -188,9 +194,31 @@ class EPR( FreeJob, GetSetItemsMixin ):
     #################################################################
 
 
-    def _bias_button_fired(self):
-        self.task_out.write(self.v_bias)    
+    def _bias_button_fired(self): #den ersten Wert duch die momentane Spannung ersetzen, sonst spingt es immer bei ausführen
+        if self.first_bias is 'true':
+            voltage_array = np.arange(0.01,self.v_bias, 0.001) 
+            for i,val in enumerate(voltage_array):
+                self.task_out.write(val) 
+                time.sleep(0.001)  
+            self.first_bias = 'false'
+            self.bias_set = val
+        else:
+            if self.bias_set < self.v_bias:
+                voltage_array = np.arange(self.bias_set,self.v_bias, 0.001) 
+                for i,val in enumerate(voltage_array):
+                    self.task_out.write(val) 
+                    time.sleep(0.001)
+                self.bias_set = val
+            else:
+                voltage_array = np.arange(self.v_bias,self.bias_set, 0.001) 
+                voltage_array = np.flipud(voltage_array)
+                for i,val in enumerate(voltage_array):
+                    self.task_out.write(val) 
+                    time.sleep(0.001)
+                self.bias_set = val
 
+
+       
     def set_data_for_get_set_items(self):
         """sets the data for saving"""
         self.hall_voltage = self.y_data
@@ -199,9 +227,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     def _bias_measured_button_fired(self):
         measured_data = self.task_in.read()
         self.bias_value = measured_data[0]
-
-       
-
+     
  
     def update_time_proceed(self,i,total_length):
         """simply updates the time elapsed"""
@@ -238,7 +264,6 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.save(filename+'.pys')
         self.save(filename+'-ACSII.pys')
         np.savetxt(filename+'.txt',np.transpose((self.voltage,self.y_data)))
-
 
     def generate_voltage(self):
         if self.scale == 'lin':

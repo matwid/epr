@@ -1,0 +1,133 @@
+2021-01-15 15:02:41,515 - epr.<module> - INFO - Starting logger.
+2021-01-15 15:02:42,805 - cron.run - INFO - Starting Cron Daemon.
+2021-01-15 15:02:45,085 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-15 15:02:45,495 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-15 15:02:45,505 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 15:02:45,505 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 15:07:28,085 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h07m05, started 10144)>
+2021-01-15 15:07:28,086 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:09:02,622 - epr.<module> - INFO - Starting logger.
+2021-01-15 15:09:03,192 - cron.run - INFO - Starting Cron Daemon.
+2021-01-15 15:09:04,635 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-15 15:09:04,775 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-15 15:09:04,775 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 15:09:04,775 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 15:13:22,925 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h13m07, stopped 10456)>
+2021-01-15 15:13:22,925 - utility.stop - DEBUG - Thread <StoppableThread(EPR21-01-15_15h13m07, stopped 10456)> is not running. Continuing...
+2021-01-15 15:14:50,724 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h14m38, started 12464)>
+2021-01-15 15:14:50,737 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:23:58,404 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h23m25, started 14092)>
+2021-01-15 15:23:58,412 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:25:19,988 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h23m25, stopped 14092)>
+2021-01-15 15:25:19,989 - utility.stop - DEBUG - Thread <StoppableThread(EPR21-01-15_15h23m25, stopped 14092)> is not running. Continuing...
+2021-01-15 15:33:53,986 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h32m44, started 4272)>
+2021-01-15 15:33:54,006 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:34:20,492 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h34m06, started 14816)>
+2021-01-15 15:34:20,511 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:34:48,124 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h34m41, started 4644)>
+2021-01-15 15:34:48,128 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:35:27,998 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h35m21, started 2944)>
+2021-01-15 15:35:27,999 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:35:57,256 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h35m50, started 3528)>
+2021-01-15 15:35:57,256 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:36:15,628 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h36m09, started 13656)>
+2021-01-15 15:36:15,644 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 15:36:28,404 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_15h36m19, started 15120)>
+2021-01-15 15:36:28,420 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 16:05:57,035 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_16h05m54, started 7652)>
+2021-01-15 16:05:57,036 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 16:18:28,787 - epr.<module> - INFO - Starting logger.
+2021-01-15 16:18:29,087 - cron.run - INFO - Starting Cron Daemon.
+2021-01-15 16:18:30,087 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-15 16:18:30,187 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-15 16:18:30,187 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:18:30,187 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:18:42,924 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000023BE4223D08>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 192, in _bias_button_fired
+    v = self.generate_voltage(0,self.v_bias, 0.001)
+TypeError: generate_voltage() takes 1 positional argument but 4 were given
+2021-01-15 16:18:46,611 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000023BE4223D08>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 192, in _bias_button_fired
+    v = self.generate_voltage(0,self.v_bias, 0.001)
+TypeError: generate_voltage() takes 1 positional argument but 4 were given
+2021-01-15 16:20:16,313 - epr.<module> - INFO - Starting logger.
+2021-01-15 16:20:16,603 - cron.run - INFO - Starting Cron Daemon.
+2021-01-15 16:20:17,643 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-15 16:20:17,723 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-15 16:20:17,723 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:20:17,733 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:20:20,341 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_16h20m19, started 13944)>
+2021-01-15 16:20:20,352 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 16:20:21,108 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000208FDE09B88>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 194, in _bias_button_fired
+    self.task_out.write(self.i)
+AttributeError: 'EPR' object has no attribute 'i'
+2021-01-15 16:20:43,192 - epr.<module> - INFO - Starting logger.
+2021-01-15 16:20:43,482 - cron.run - INFO - Starting Cron Daemon.
+2021-01-15 16:20:44,482 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-15 16:20:44,562 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-15 16:20:44,562 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:20:44,572 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:20:58,708 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-15_16h20m57, started 2156)>
+2021-01-15 16:20:58,719 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-15 16:20:59,747 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000227C09D0588>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 194, in _bias_button_fired
+    self.task_out.write(i)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\nidaqmx\task.py", line 1235, in write
+    timeout)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\nidaqmx\_task_modules\write_functions.py", line 32, in _write_analog_f_64
+    check_for_error(error_code)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\nidaqmx\errors.py", line 127, in check_for_error
+    raise DaqError(error_buffer.value.decode("utf-8"), error_code)
+nidaqmx.errors.DaqError: Attempted writing analog data that is too large or too small. Change Minimum Value and Maximum Value to reflect the range of the channel.
+Data:  11.0
+Specified Range Minimum: -10.0
+Specified Range Maximum:  10.0
+
+Task Name: _unnamedTask<1>
+
+Status Code: -200561
+2021-01-15 16:21:54,198 - epr.<module> - INFO - Starting logger.
+2021-01-15 16:21:54,496 - cron.run - INFO - Starting Cron Daemon.
+2021-01-15 16:21:55,504 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-15 16:21:55,584 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-15 16:21:55,584 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:21:55,594 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:21:57,564 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001A8AD5D8948>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 194, in _bias_button_fired
+    self.task_out.write(i)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\nidaqmx\task.py", line 1235, in write
+    timeout)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\nidaqmx\_task_modules\write_functions.py", line 32, in _write_analog_f_64
+    check_for_error(error_code)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\nidaqmx\errors.py", line 127, in check_for_error
+    raise DaqError(error_buffer.value.decode("utf-8"), error_code)
+nidaqmx.errors.DaqError: Attempted writing analog data that is too large or too small. Change Minimum Value and Maximum Value to reflect the range of the channel.
+Data:  11.0
+Specified Range Minimum: -10.0
+Specified Range Maximum:  10.0
+
+Task Name: _unnamedTask<1>
+
+Status Code: -200561
+2021-01-15 16:23:37,298 - epr.<module> - INFO - Starting logger.
+2021-01-15 16:23:37,588 - cron.run - INFO - Starting Cron Daemon.
+2021-01-15 16:23:38,609 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-15 16:23:38,679 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-15 16:23:38,689 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-15 16:23:38,689 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
