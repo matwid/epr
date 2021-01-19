@@ -105,7 +105,11 @@ class FreeJob( Job ):
 
     def _stop_button_fired(self):
         """React to remove button. Remove the Job."""
+        self.measurment_stopped = 'true'
         self.stop()
+        self.decrease_voltage()
+        
+
 
     traits_view=View(HGroup(Item('start_button', show_label=False),
                             Item('stop_button', show_label=False),

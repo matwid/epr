@@ -25,7 +25,6 @@ class EPR( FreeJob, GetSetItemsMixin ):
       last modified
     """
     
-
     v_begin           = Range(low=0., high=10.,    value=4.4,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
     v_end             = Range(low=0.001, high=10.,    value=4.7,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
     v_bias            = Float(default_value=4.5,label=' ')
@@ -44,7 +43,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     hall_voltage      = Array()#for saving only
     lockin_data       = Array()#for saving only
     y_data            = Array()#plot1 y-data
-    y_data2           = Array()#plot2 y-data
+    y_data_hall           = Array()#plot2 y-data
     x_data            = Array()
     total_length      = Float()#for time proceed only
 
@@ -108,13 +107,15 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.task_out.start()
 
         self.first_bias = 'true'
+        self.bias_button_was_fired = 'false'
+
     def _run(self):
         #self.task_in = nidaqmx.Task()
         #self.task_out = nidaqmx.Task()
 
         #self.task_in.ai_channels.add_ai_voltage_chan("Dev1/ai0")
         #self.task_out.ao_channels.add_ao_voltage_chan("Dev1/ao0","output_channel")
-
+        self.measurment_stopped = 'false'
         
        
         self.task_in.start()
@@ -126,17 +127,15 @@ class EPR( FreeJob, GetSetItemsMixin ):
             self.voltage = self.generate_voltage()
             self.x_data  = np.array(())
             self.y_data  = np.array(())
-            self.y_data2  = np.array(())
+            self.y_data_hall  = np.array(())
             self.lockin_data  = np.array(())
             self.hall_voltage  = np.array(())
 
             total_length = len(np.arange(self.v_begin, self.v_end, self.v_delta))
 
+            self.increase_voltage()
 
-
-
-            for i,v in enumerate(self.voltage): #Spannung langsam anfahren und ausschalten
-
+            for i,v in enumerate(self.voltage): 
 
                 #stop routine
                 self.thread.stop_request.wait(self.seconds_per_point)
@@ -145,7 +144,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
                     self.state = 'idle'
                     break
                 self.task_out.write(v)
-
+                self.current_voltage = v
                 #set integration time
                 
                 time.sleep(self.seconds_per_point)
@@ -158,8 +157,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
                 #lockin_data = self.task_lockin.read()
 
-                #set the plot dataself.y_data2          = np.append(self.y_data2, measured_counts)
-                self.y_data2          = np.append(self.y_data2, measured_voltage)
+                #set the plot dataself.y_data_hall          = np.append(self.y_data_hall, measured_counts)
+                self.y_data_hall          = np.append(self.y_data_hall, measured_voltage)
                 self.y_data           = np.append(self.y_data,  lockin_data)
                 #self.y_data           = np.append(self.y_data,  measured_voltage)
                 self.x_data           = np.append(self.x_data,v)
@@ -174,19 +173,18 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
         except:
             logging.getLogger().exception('Error in EPR measurement.')
-            self.task_out.write(0)
+            self.decrease_voltage()
             self.task_out.stop()
             self.task_in.stop()
             self.state = 'error'
 
-
         finally:
-            self.task_out.write(self.v_bias)
+            if self.measurment_stopped is 'false':
+                self.decrease_voltage()
             self.set_data_for_get_set_items()
             self.task_in.stop()
             self.task_out.stop()
-            
-           #print(lockin_data)
+
             self.state = 'done'
 
     #################################################################
@@ -194,7 +192,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     #################################################################
 
 
-    def _bias_button_fired(self): #den ersten Wert duch die momentane Spannung ersetzen, sonst spingt es immer bei ausführen
+    def _bias_button_fired(self): #slowly increase/decrease of voltage, while using the bias button
         if self.first_bias is 'true':
             voltage_array = np.arange(0.01,self.v_bias, 0.001) 
             for i,val in enumerate(voltage_array):
@@ -216,13 +214,13 @@ class EPR( FreeJob, GetSetItemsMixin ):
                     self.task_out.write(val) 
                     time.sleep(0.001)
                 self.bias_set = val
-
+        self.bias_button_was_fired = 'true'
 
        
     def set_data_for_get_set_items(self):
         """sets the data for saving"""
         self.hall_voltage = self.y_data
-        self.lockin_data  = self.y_data2
+        self.lockin_data  = self.y_data_hall
 
     def _bias_measured_button_fired(self):
         measured_data = self.task_in.read()
@@ -234,6 +232,33 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.proceed    =(float(i)/(float(total_length)))*100
         self.time_remain=((self.seconds_per_point*total_length)-(i*self.seconds_per_point))/60
 
+
+    def increase_voltage(self): #makes sure, that the voltage increases slowly 
+        if self.bias_button_was_fired is 'true':
+            voltage_array = np.arange(self.v_bias,self.v_begin, 0.001)
+            for i,val in enumerate(voltage_array):
+                self.task_out.write(val) 
+                time.sleep(0.001)
+        else:
+            voltage_array = np.arange(0.001,self.v_begin, 0.001)
+            for i,val in enumerate(voltage_array):
+                self.task_out.write(val) 
+                time.sleep(0.001)
+
+
+    def decrease_voltage(self): #makes sure, that the voltage decreases slowly 
+        if self.bias_button_was_fired is 'true':
+            voltage_array = np.arange(self.v_bias,self.current_voltage, 0.001) 
+            voltage_array = np.flipud(voltage_array)
+            for i,val in enumerate(voltage_array):
+                self.task_out.write(val) 
+                time.sleep(0.01)
+        else:
+            voltage_array = np.arange(0.001,self.v_end, 0.001) 
+            voltage_array = np.flipud(voltage_array)
+            for i,val in enumerate(voltage_array):
+                self.task_out.write(val) 
+                time.sleep(0.01)
 
 
     #################################################################
