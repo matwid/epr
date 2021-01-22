@@ -1,5 +1,6 @@
 """
 """
+import numpy as np
 import pickle,re
 import csv
 import csv, json, os, pandas
@@ -10,7 +11,7 @@ _file_mode_map = {'asc':'', 'bin':'b'}
 _pickle_mode_map = {'asc':0, 'bin':1}
 
 def writeDictToFile(dict, filename):
-    if filename.find('.txt')!=-1 or filename.find('.asc')!=-1:
+    if filename.find('.txt')!=-1 or filename.find('.asc')!=-1:  
         d=dictToAscii(dict)
         stringToFile(d,filename)
     elif filename.find('.pys')!=-1: 
@@ -38,7 +39,7 @@ def writeDictToFile(dict, filename):
         mode='bin'
         fil = open(filename,'w'+_file_mode_map[mode])
         pickle.dump(dict, fil, _pickle_mode_map[mode])
-        fil.close()
+        fil.close()     
 def dictToCsv(dictionary, filename):
     df=pandas.DataFrame(dict([ (k,pandas.Series(v)) for k,v in dictionary.iteritems() ]))        
     df.to_excel(filename,sheet_name='book1')
@@ -132,6 +133,8 @@ def dictToAscii(dict, keys=None):
       del dict['__doc__']
     except:
       datastring=''
+    measuerd_data_array =[[],[],[]]
+    j=0
     for key, value in dict.items():
         datastring+= '#'+key+'\n' # header for each key
         #blub(value)
@@ -145,23 +148,33 @@ def dictToAscii(dict, keys=None):
                                datastring+=(str(value[i,j])+', ')
                                if j==value.shape[1]-1:
                                    datastring+='\n'
-          
+                                   
                 else: 
                     #1d array
                     try:
                         n=value.shape[0]
                     except:
                         n=len(value)
-                    for i in range(n):
-                        datastring+=(str(value[i])+'\n')
-            else:
+                    
+                    if j <= 2:
+                        for i in range(n):
+                            measuerd_data_array[j].append(value[i])
+                    j+=1
+            else: 
                 datastring=datastring+' '+'/n'
     
         else:
             # value no array
-            datastring=datastring+str(value)+'\n'
-    return datastring
+            datastring=datastring+str(value)+'\n'  
 
+    array_data = ''
+    measuerd_data_array= np.transpose(measuerd_data_array)
+    for i in range(len(measuerd_data_array)):
+        array_data += (str(measuerd_data_array[i][0])+'\t'+str(measuerd_data_array[i][1])+'\t'+str(measuerd_data_array[i][2])+'\n')
+    datastring=datastring +'\n'+ array_data 
+
+    return datastring
+    
 
 def stringToFile(datastring, path):
     """writes datastring to file"""

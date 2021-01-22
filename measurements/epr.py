@@ -24,11 +24,11 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
       last modified
     """
-    
-    v_begin           = Range(low=0., high=10.,    value=4.4,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
-    v_end             = Range(low=0.001, high=10.,    value=4.7,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
-    v_bias            = Float(default_value=4.5,label=' ')
-    v_delta           = Range(low=0., high=10.,       value=.001,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
+    # v_bias = 4.5 v_begin = 4.4
+    v_begin           = Range(low=0., high=10.,    value=0,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
+    v_end             = Range(low=0.001, high=10.,    value=1,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
+    v_bias            = Float(default_value=0,label=' ')
+    v_delta           = Range(low=0., high=10.,       value=.1,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
     v_reset           = Float(default_value=0, label='reset voltage')
 
@@ -38,12 +38,14 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
     scale             = Enum('lin','log',value='log', desc='scale')
     plot_tpe          = Enum('line', 'scatter')
+    x_axies           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
+    y_axies           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
 
     voltage           = Array()#for plot1 & 2 and for saving
     hall_voltage      = Array()#for saving only
     lockin_data       = Array()#for saving only
     y_data            = Array()#plot1 y-data
-    y_data_hall           = Array()#plot2 y-data
+    y_data_hall       = Array()#plot2 y-data
     x_data            = Array()
     total_length      = Float()#for time proceed only
 
@@ -57,7 +59,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
     max_current = Float(default_value=10e-3, label='max current')
 
-    get_set_items=['__doc__', 'v_begin', 'v_end', 'v_delta', 'seconds_per_point', 'voltage', 'hall_voltage', 'lockin_data', 'v_bias' ]
+    get_set_items=['__doc__', 'v_begin', 'v_end', 'v_delta', 'seconds_per_point', 'v_bias', 'voltage', 'hall_voltage', 'lockin_data' ]
 
     traits_view = View(VGroup(HGroup(Item('start_button',   show_label=False),
                                      Item('stop_button',   show_label=False),
@@ -86,7 +88,9 @@ class EPR( FreeJob, GetSetItemsMixin ):
                               HGroup(Item('bias_button', show_label=False),
                                      Item('v_bias', show_label=False),
                                      Item('bias_measured_button',show_label=False),
-                                     Item('bias_value')
+                                     Item('bias_value'),
+                                     Item('x_axies'),
+                                     Item('y_axies')
                                      ),                                     
                               Item('plot', editor=ComponentEditor(), show_label=False, resizable=True),
 
@@ -104,11 +108,15 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.task_out = task_out
         self.on_trait_change(self._update_index,    'x_data',    dispatch='ui')
         self.on_trait_change(self._update_value,    'y_data',    dispatch='ui')
+
+        self.on_trait_change(self._update_naming_x,    'x_axies',    dispatch='ui')
+        self.on_trait_change(self._update_naming_y,    'y_axies',    dispatch='ui')
+        
         self.task_out.start()
 
         self.first_bias = 'true'
         self.bias_button_was_fired = 'false'
-
+        self.bias_set = 0
     def _run(self):
         #self.task_in = nidaqmx.Task()
         #self.task_out = nidaqmx.Task()
@@ -127,7 +135,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
             self.voltage = self.generate_voltage()
             self.x_data  = np.array(())
             self.y_data  = np.array(())
-            self.y_data_hall  = np.array(())
+            self.z_data  = np.array(())
             self.lockin_data  = np.array(())
             self.hall_voltage  = np.array(())
 
@@ -158,14 +166,13 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 #lockin_data = self.task_lockin.read()
 
                 #set the plot dataself.y_data_hall          = np.append(self.y_data_hall, measured_counts)
-                self.y_data_hall          = np.append(self.y_data_hall, measured_voltage)
+                self.z_data          = np.append(self.z_data, measured_voltage)
                 self.y_data           = np.append(self.y_data,  lockin_data)
-                #self.y_data           = np.append(self.y_data,  measured_voltage)
                 self.x_data           = np.append(self.x_data,v)
 
                 # update proceeding time
                 self.update_time_proceed(i,total_length)
-
+                
             else:
                 self.update_time_proceed(total_length,total_length)
                 self.state='done'
@@ -254,7 +261,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 self.task_out.write(val) 
                 time.sleep(0.01)
         else:
-            voltage_array = np.arange(0.001,self.v_end, 0.001) 
+            voltage_array = np.arange(0.001,self.current_voltage, 0.01) 
             voltage_array = np.flipud(voltage_array)
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
@@ -266,21 +273,45 @@ class EPR( FreeJob, GetSetItemsMixin ):
     #################################################################
 
     def _create_plot(self):
-        plot_data = ArrayPlotData(x_data=np.array(()), y_data=np.array(()),)
+        plot_data = ArrayPlotData(x_data=np.array(()), y_data=np.array(()),z_data=np.array(()))
         plot = Plot(plot_data, padding=8, padding_left=64, padding_bottom=64)
-        plot.plot(('x_data','y_data'), color='blue', type='line')
-        plot.index_axis.title = 'Hallspanung [V]'
-        plot.value_axis.title = 'LogIn Spannung [V]'
+        plot.plot(('x_data','x_data'), color='blue', type='line')
         plot.tools.append(SaveTool(plot))
         self.plot_data = plot_data
         self.plot = plot
 
+
+    def _update_naming_x(self): 
+        if self.x_axies == 'control voltage':
+            self.plot.index_axis.title = 'control voltage [V]'
+            return
+        elif self.x_axies == 'hall voltage':
+            self.plot.index_axis.title = 'hall voltage [V]'
+            return
+        elif self.x_axies == 'logIn voltage':
+            self.plot.index_axis.title = 'logIn voltage [V]'
+            return
+
+    def _update_naming_y(self):   
+        if self.y_axies == 'control voltage':
+            self.plot.value_axis.title = 'control voltage [V]'
+            return
+        elif self.y_axies == 'hall voltage':
+            self.plot.value_axis.title = 'hall voltage [V]'
+            return
+        elif self.y_axies == 'logIn voltage':
+            self.plot.value_axis.title = 'logIn voltage [V]'
+            return   
+
+
     def _update_index(self, new):
         self.plot_data.set_data('x_data', new)
 
+
     def _update_value(self, new):
         self.plot_data.set_data('y_data', new)
-
+   
+    
     def save_plot(self, filename):
         save_figure(self.plot, filename)
 
@@ -288,7 +319,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
     def save_all(self, filename):
         self.save(filename+'.pys')
         self.save(filename+'-ACSII.pys')
-        np.savetxt(filename+'.txt',np.transpose((self.voltage,self.y_data)))
+        np.savetxt(filename+'.txt',(self.voltage,self.y_data))
+    
 
     def generate_voltage(self):
         if self.scale == 'lin':

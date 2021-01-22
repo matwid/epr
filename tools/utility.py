@@ -215,7 +215,8 @@ class GetSetItemsMixin( HasTraits ):
         if not filename:
             raise IOError('Empty filename. Specify a filename and try again!')
         writeDictToFile(self.get_items(),filename)
-            
+
+         
     def load(self, filename):
         if filename == '':
             raise IOError('Empty filename. Specify a filename and try again!')
