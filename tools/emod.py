@@ -105,9 +105,11 @@ class FreeJob( Job ):
 
     def _stop_button_fired(self):
         """React to remove button. Remove the Job."""
-        self.measurment_stopped = 'true'
-        self.stop()
-        self.decrease_voltage()
+        if self.measurment_finished is 'false':
+            self.measurment_stopped = 'true'
+            self.stop()
+            self.decrease_voltage()
+     
         
 
 

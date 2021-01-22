@@ -172,7 +172,6 @@ def dictToAscii(dict, keys=None):
     for i in range(len(measuerd_data_array)):
         array_data += (str(measuerd_data_array[i][0])+'\t'+str(measuerd_data_array[i][1])+'\t'+str(measuerd_data_array[i][2])+'\n')
     datastring=datastring +'\n'+ array_data 
-
     return datastring
     
 
