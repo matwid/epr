@@ -38,16 +38,20 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
     scale             = Enum('lin','log',value='log', desc='scale')
     plot_tpe          = Enum('line', 'scatter')
-    x_axies           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
-    y_axies           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
+    x_axis           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
+    y_axis           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
 
-    voltage           = Array()#for plot1 & 2 and for saving
-    hall_voltage      = Array()#for saving only
-    lockin_data       = Array()#for saving only
-    y_data            = Array()#plot1 y-data
-    y_data_hall       = Array()#plot2 y-data
-    x_data            = Array()
+    voltage           = Array()#for saving only
+    hall_voltage      = Array()#
+    lockin_data       = Array()#
+    login_V_data      = Array()#    
+    hall_V_data       = Array()#
+    control_V_data    = Array()#
+
     total_length      = Float()#for time proceed only
+
+    x_data_plot       = Array()#for ploting
+    y_data_plot       = Array()#
 
     plot_data         = Instance( ArrayPlotData )
     plot              = Instance( Plot )
@@ -89,8 +93,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
                                      Item('v_bias', show_label=False),
                                      Item('bias_measured_button',show_label=False),
                                      Item('bias_value'),
-                                     Item('x_axies'),
-                                     Item('y_axies')
+                                     Item('x_axis'),
+                                     Item('y_axis')
                                      ),                                     
                               Item('plot', editor=ComponentEditor(), show_label=False, resizable=True),
 
@@ -106,17 +110,18 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.task_in = task_in
         
         self.task_out = task_out
-        self.on_trait_change(self._update_index,    'x_data',    dispatch='ui')
-        self.on_trait_change(self._update_value,    'y_data',    dispatch='ui')
+        self.on_trait_change(self._update_index,    'x_data_plot',    dispatch='ui')
+        self.on_trait_change(self._update_value,    'y_data_plot',    dispatch='ui')
 
-        self.on_trait_change(self._update_naming_x,    'x_axies',    dispatch='ui')
-        self.on_trait_change(self._update_naming_y,    'y_axies',    dispatch='ui')
+        self.on_trait_change(self._update_naming_x,    'x_axis',    dispatch='ui')
+        self.on_trait_change(self._update_naming_y,    'y_axis',    dispatch='ui')
         
         self.task_out.start()
 
         self.first_bias = 'true'
         self.bias_button_was_fired = 'false'
         self.bias_set = 0
+
     def _run(self):
         #self.task_in = nidaqmx.Task()
         #self.task_out = nidaqmx.Task()
@@ -124,18 +129,21 @@ class EPR( FreeJob, GetSetItemsMixin ):
         #self.task_in.ai_channels.add_ai_voltage_chan("Dev1/ai0")
         #self.task_out.ao_channels.add_ao_voltage_chan("Dev1/ao0","output_channel")
         self.measurment_stopped = 'false'
-        
-       
         self.task_in.start()
         
+
+        """
+        self.plot_data_on_x()
+        self.plot_data_on_x()
+        """
         try:
             self.state='run'
 
             #prepare empty arrays here, for eg a second run
             self.voltage = self.generate_voltage()
-            self.x_data  = np.array(())
-            self.y_data  = np.array(())
-            self.z_data  = np.array(())
+            self.control_V_data  = np.array(())
+            self.login_V_data  = np.array(())
+            self.hall_V_data  = np.array(())
             self.lockin_data  = np.array(())
             self.hall_voltage  = np.array(())
 
@@ -165,11 +173,13 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
                 #lockin_data = self.task_lockin.read()
 
-                #set the plot dataself.y_data_hall          = np.append(self.y_data_hall, measured_counts)
-                self.z_data          = np.append(self.z_data, measured_voltage)
-                self.y_data           = np.append(self.y_data,  lockin_data)
-                self.x_data           = np.append(self.x_data,v)
+                #set the plot dataself.hall_V_data          = np.append(self.hall_V_data, measured_counts)
+                self.hall_V_data          = np.append(self.hall_V_data,     measured_voltage)
+                self.login_V_data         = np.append(self.login_V_data,    lockin_data)
+                self.control_V_data       = np.append(self.control_V_data,  v)
 
+                self.plot_data_on_x()
+                self.plot_data_on_y()
                 # update proceeding time
                 self.update_time_proceed(i,total_length)
                 
@@ -226,8 +236,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
        
     def set_data_for_get_set_items(self):
         """sets the data for saving"""
-        self.hall_voltage = self.y_data
-        self.lockin_data  = self.y_data_hall
+        self.hall_voltage = self.login_V_data
+        self.lockin_data  = self.hall_V_data
 
     def _bias_measured_button_fired(self):
         measured_data = self.task_in.read()
@@ -273,43 +283,46 @@ class EPR( FreeJob, GetSetItemsMixin ):
     #################################################################
 
     def _create_plot(self):
-        plot_data = ArrayPlotData(x_data=np.array(()), y_data=np.array(()),z_data=np.array(()))
+        plot_data = ArrayPlotData(x_data_plot=np.array(()), y_data_plot=np.array(()))
         plot = Plot(plot_data, padding=8, padding_left=64, padding_bottom=64)
-        plot.plot(('x_data','x_data'), color='blue', type='line')
+        plot.plot(('x_data_plot','y_data_plot'), color='blue', type='line')
         plot.tools.append(SaveTool(plot))
         self.plot_data = plot_data
         self.plot = plot
 
 
     def _update_naming_x(self): 
-        if self.x_axies == 'control voltage':
+        if self.x_axis == 'control voltage':
             self.plot.index_axis.title = 'control voltage [V]'
             return
-        elif self.x_axies == 'hall voltage':
+        elif self.x_axis == 'hall voltage':
             self.plot.index_axis.title = 'hall voltage [V]'
             return
-        elif self.x_axies == 'logIn voltage':
+        elif self.x_axis == 'logIn voltage':
             self.plot.index_axis.title = 'logIn voltage [V]'
             return
 
     def _update_naming_y(self):   
-        if self.y_axies == 'control voltage':
+        if self.y_axis == 'control voltage':
             self.plot.value_axis.title = 'control voltage [V]'
             return
-        elif self.y_axies == 'hall voltage':
+        elif self.y_axis == 'hall voltage':
             self.plot.value_axis.title = 'hall voltage [V]'
             return
-        elif self.y_axies == 'logIn voltage':
+        elif self.y_axis == 'logIn voltage':
             self.plot.value_axis.title = 'logIn voltage [V]'
             return   
 
 
     def _update_index(self, new):
-        self.plot_data.set_data('x_data', new)
+        
+        self.plot_data_on_x()
+        self.plot_data.set_data('x_data_plot', new)
 
 
     def _update_value(self, new):
-        self.plot_data.set_data('y_data', new)
+        self.plot_data_on_y()
+        self.plot_data.set_data('y_data_plot', new)
    
     
     def save_plot(self, filename):
@@ -319,7 +332,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     def save_all(self, filename):
         self.save(filename+'.pys')
         self.save(filename+'-ACSII.pys')
-        np.savetxt(filename+'.txt',(self.voltage,self.y_data))
+        np.savetxt(filename+'.txt',(self.voltage,self.login_V_data))
     
 
     def generate_voltage(self):
@@ -332,8 +345,28 @@ class EPR( FreeJob, GetSetItemsMixin ):
             mesh = temp_mesh - np.abs(difference)
             return mesh
 
+    def plot_data_on_x(self):
+        if self.x_axis == 'control voltage':
+            self.x_data_plot = self.control_V_data
+            return
+        elif self.x_axis == 'hall voltage':
+            self.x_data_plot = self.hall_V_data
+            return
+        elif self.x_axis == 'logIn voltage':
+            self.x_data_plot =  self.login_V_data
+            return
 
 
+    def plot_data_on_y(self):    
+        if self.y_axis == 'control voltage':
+            self.y_data_plot = self.control_V_data
+            return
+        elif self.y_axis == 'hall voltage':
+            self.y_data_plot = self.hall_V_data
+            return
+        elif self.y_axis == 'logIn voltage':
+            self.y_data_plot =  self.login_V_data
+            return
 
 if __name__=='__main__':
     epr = EPR()
