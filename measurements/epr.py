@@ -46,8 +46,6 @@ class EPR( FreeJob, GetSetItemsMixin ):
     y_axis           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
       
 
-
-
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
     v_reset           = Float(default_value=0, label='reset voltage')
 
@@ -235,7 +233,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
             voltage_array = np.arange(0.01,self.v_bias, 0.001) 
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
-                time.sleep(0.001)  
+                time.sleep(0.01)  
             self.first_bias = 'false'
             self.bias_set = self.val
         else:
@@ -243,14 +241,14 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 voltage_array = np.arange(self.bias_set,self.v_bias, 0.001) 
                 for i,val in enumerate(voltage_array):
                     self.task_out.write(val) 
-                    time.sleep(0.001)
+                    time.sleep(0.01)
                 self.bias_set = val
             else:
                 voltage_array = np.arange(self.v_bias,self.bias_set, 0.001) 
                 voltage_array = np.flipud(voltage_array)
                 for i,val in enumerate(voltage_array):
                     self.task_out.write(val) 
-                    time.sleep(0.001)
+                    time.sleep(0.01)
                 self.bias_set = val
         self.bias_button_was_fired = 'true'
 
