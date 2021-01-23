@@ -86,9 +86,6 @@ class EPR( FreeJob, GetSetItemsMixin ):
                                      Item('state',       style='readonly'),
                                      Item('proceed',     show_label=True, style='readonly',format_str='%.f'),
                                      Item('time_remain', show_label = True, style='readonly',format_str='%.f'),
-
-                                     ),
-                              HGroup(Item('filename',    springy=True),
                                      Item('save_button', show_label=False),
                                      Item('load_button', show_label=False)
                                      ),
@@ -215,7 +212,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
         finally:
             self.measurment_finished = 'true'
-            if self.measurment_stopped is 'false':
+            if self.measurment_stopped == 'false':
                 self.decrease_voltage()
             self.set_data_for_get_set_items()
             self.task_in.stop()
@@ -229,7 +226,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
     def _bias_button_fired(self): #slowly increase/decrease of voltage, while using the bias button
-        if self.first_bias is 'true':
+        if self.first_bias == 'true':
             voltage_array = np.arange(0.01,self.v_bias, 0.001) 
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
@@ -270,7 +267,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
     def increase_voltage(self): #makes sure, that the voltage increases slowly 
-        if self.bias_button_was_fired is 'true':
+        if self.bias_button_was_fired == 'true':
             voltage_array = np.arange(self.v_bias,self.v_begin, 0.001)
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
@@ -283,7 +280,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
     def decrease_voltage(self): #makes sure, that the voltage decreases slowly 
-        if self.bias_button_was_fired is 'true' or self.measurment_stopped is 'true':
+        if self.bias_button_was_fired == 'true' or self.measurment_stopped == 'true':
             voltage_array = np.arange(self.v_bias,self.current_voltage, 0.01) 
             voltage_array = np.flipud(voltage_array)
             for i,val in enumerate(voltage_array):
@@ -342,17 +339,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     def _update_value(self, new):
         self.plot_data_on_y()
         self.plot_data.set_data('y_data_plot', new)
-   
-    
-    def save_plot(self, filename):
-        save_figure(self.plot, filename)
 
-
-    def save_all(self, filename):
-        self.save(filename+'.pys')
-        self.save(filename+'-ACSII.pys')
-        np.savetxt(filename+'.txt',(self.voltage,self.login_V_data))
-    
 
     def generate_voltage(self):
         if self.scale == 'lin':

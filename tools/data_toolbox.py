@@ -10,36 +10,6 @@ import time
 _file_mode_map = {'asc':'', 'bin':'b'}
 _pickle_mode_map = {'asc':0, 'bin':1}
 
-def writeDictToFile(dict, filename):
-    if filename.find('.txt')!=-1 or filename.find('.asc')!=-1:  
-        d=dictToAscii(dict)
-        stringToFile(d,filename)
-    elif filename.find('.pys')!=-1: 
-        mode='bin'
-        fil = open(filename,'w'+_file_mode_map[mode])
-        pickle.dump(dict, fil, _pickle_mode_map[mode])
-        fil.close()
-    elif filename.find('.pyd')!=-1:
-        mode='asc'
-        fil = open(filename,'w'+_file_mode_map[mode])
-        pickle.dump(dict, fil, _pickle_mode_map[mode])
-        fil.close()
-    elif filename.find('.fits')!=-1:
-        tbhdu = dictToFits(dict)
-        tbhdu.writeto(filename)
-
-    elif filename.find('.mat')!=-1:        
-        data=dictToMat(dict)
-        sio.savemat(filename,data)
-
-    elif filename.find('.xlsx')!=-1:        
-        dictToCsv(dictionary,filename)  
-    else:
-        filename=filename+'.pys'
-        mode='bin'
-        fil = open(filename,'w'+_file_mode_map[mode])
-        pickle.dump(dict, fil, _pickle_mode_map[mode])
-        fil.close()     
 def dictToCsv(dictionary, filename):
     df=pandas.DataFrame(dict([ (k,pandas.Series(v)) for k,v in dictionary.iteritems() ]))        
     df.to_excel(filename,sheet_name='book1')
@@ -124,69 +94,6 @@ def pickleFileToDict(path, keys=None):
         print( 'Error importing data')
     d=KeysFromDict(dict,keys)
     return d
-
-
-def dictToAscii(dict, keys=None):
-    """Converts a dictionary or parts of it to a string"""
-    try:        # if there is a doc string put it up front
-      datastring= '#__doc__\n'+dict['__doc__']+'\n'
-      del dict['__doc__']
-    except:
-      datastring=''
-    measuerd_data_array =[[],[],[]]
-    j=0
-    for key, value in dict.items():
-        datastring+= '#'+key+'\n' # header for each key
-        #blub(value)
-        if hasattr(value,'__iter__'): # array? 
-            if value!=[]:
-                if hasattr(value[0],'__iter__'): # 2d array?
-      
-                       #2d array
-                       for i in range(value.shape[0]):
-                           for j in range(value.shape[1]):
-                               datastring+=(str(value[i,j])+', ')
-                               if j==value.shape[1]-1:
-                                   datastring+='\n'
-                                   
-                else: 
-                    #1d array
-                    try:
-                        n=value.shape[0]
-                    except:
-                        n=len(value)
-                    
-                    if j <= 2:
-                        for i in range(n):
-                            measuerd_data_array[j].append(value[i])
-                    j+=1
-            else: 
-                datastring=datastring+' '+'/n'
-    
-        else:
-            # value no array
-            datastring=datastring+str(value)+'\n'  
-
-    array_data = ''
-    measuerd_data_array= np.transpose(measuerd_data_array)
-    for i in range(len(measuerd_data_array)):
-        array_data += (str(measuerd_data_array[i][0])+'\t'+str(measuerd_data_array[i][1])+'\t'+str(measuerd_data_array[i][2])+'\n')
-    datastring=datastring +'\n'+ array_data 
-    return datastring
-    
-
-def stringToFile(datastring, path):
-    """writes datastring to file"""
-    try:
-        f=open(path,'w')
-        try:
-            f.write(datastring)
-        finally:
-            f.close()
-    except IOError:
-        print( 'Error exporting data')
-        return False
-    return True
 
 def pickleFileToAscFile(sourcefile, targetfile=None, keys=None):
   """dump pickle from pickled file to ascii file (source, [target], [(keys)])"""

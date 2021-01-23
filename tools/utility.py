@@ -139,6 +139,7 @@ def warning( message='', buttons=[OKButton, CancelButton] ):
                                 )
     return ui.result
 
+
 def save_file(title=''):
     """
     Displays a dialog box that lets the user select a file name.
@@ -161,7 +162,6 @@ def save_file(title=''):
             return dialog_box.filename
         else:
             return
-
 
 class GetSetItemsMixin( HasTraits ):
     """
@@ -239,15 +239,75 @@ class GetSetItemsMixin( HasTraits ):
             logging.getLogger().debug('state of '+self.__str__()+' restored.')
         else:
             raise IOError('File does not exist.')
-
-    def _save_button_fired(self):
-        if os.access(self.filename, os.F_OK):
-            if not warning('File exists. Overwrite?'):
-                return
+        
+    ##################################################################################################################
+    # new Save Button function, basiclly all in one Function. Path gets set after pressing button.
+    ##################################################################################################################
+    def _save_button_fired(self, dict):
+        self.filename =save_file()
+        if os.access(self.filename, os.F_OK)
         try:
-            self.save(self.filename)
-        except IOError as err:
-            warning(err.message, buttons=[OKButton])
+            try:        # if there is a doc string put it up front
+        datastring= '#__doc__\n'+dict['__doc__']+'\n'
+        del dict['__doc__']
+        except:
+        datastring=''
+        measuerd_data_array =[[],[],[]]
+        j=0
+        for key, value in dict.items():
+            datastring+= '#'+key+'\n' # header for each key
+            #blub(value)
+            if hasattr(value,'__iter__'): # array? 
+                if value!=[]:
+                    if hasattr(value[0],'__iter__'): # 2d array?
+        
+                        #2d array
+                        for i in range(value.shape[0]):
+                            for j in range(value.shape[1]):
+                                datastring+=(str(value[i,j])+', ')
+                                if j==value.shape[1]-1:
+                                    datastring+='\n'
+                                    
+                    else: 
+                        #1d array
+                        try:
+                            n=value.shape[0]
+                        except:
+                            n=len(value)
+                        
+                        if j <= 2:
+                            for i in range(n):
+                                measuerd_data_array[j].append(value[i])
+                        j+=1
+                else: 
+                    datastring=datastring+' '+'/n'
+        
+            else:
+                # value no array
+                datastring=datastring+str(value)+'\n'  
+
+        array_data = ''
+        measuerd_data_array= np.transpose(measuerd_data_array)
+        for i in range(len(measuerd_data_array)):
+            array_data += (str(measuerd_data_array[i][0])+'\t'+str(measuerd_data_array[i][1])+'\t'+str(measuerd_data_array[i][2])+'\n')
+        datastring=datastring +'\n'+ array_data )
+            stringToFile(d,filename)
+            
+        try:
+            f=open(path,'w')
+            try:
+                f.write(datastring)
+            finally:
+                f.close()
+        except IOError:
+            print( 'Error exporting data')
+            return False
+        return True
+
+
+    ##################################################################################################################
+    ##################################################################################################################
+
 
     def _load_button_fired(self):
         try:
