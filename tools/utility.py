@@ -241,6 +241,7 @@ class GetSetItemsMixin( HasTraits ):
             raise IOError('File does not exist.')
 
     def _save_button_fired(self):
+        self.filename = self.filename =save_file()
         if os.access(self.filename, os.F_OK):
             if not warning('File exists. Overwrite?'):
                 return
@@ -250,6 +251,7 @@ class GetSetItemsMixin( HasTraits ):
             warning(err.message, buttons=[OKButton])
 
     def _load_button_fired(self):
+        self.filename = load_file()
         try:
             self.load(self.filename)
         except IOError as err:

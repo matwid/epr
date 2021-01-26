@@ -42,8 +42,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
     v_bias            = Float(default_value=4.5,label=' ')
     v_delta           = Range(low=0., high=10.,       value=.001,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
 
-    x_axis           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
-    y_axis           = Enum('not set','control voltage', 'hall voltage','logIn voltage')
+    x_axis           = Enum('control voltage', 'hall voltage','logIn voltage')
+    y_axis           = Enum('logIn voltage','control voltage', 'hall voltage')
       
 
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
@@ -86,9 +86,6 @@ class EPR( FreeJob, GetSetItemsMixin ):
                                      Item('state',       style='readonly'),
                                      Item('proceed',     show_label=True, style='readonly',format_str='%.f'),
                                      Item('time_remain', show_label = True, style='readonly',format_str='%.f'),
-
-                                     ),
-                              HGroup(Item('filename',    springy=True),
                                      Item('save_button', show_label=False),
                                      Item('load_button', show_label=False)
                                      ),
