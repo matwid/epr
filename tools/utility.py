@@ -194,8 +194,9 @@ class GetSetItemsMixin( HasTraits ):
                         attr.set_items(val)
                     else:
                         setattr(self, key, val)
+                    self.array_formation()    
             except:
-                logging.getLogger().warning("failed to set item '"+key+"'")
+                logging.getLogger().warning("failed to set item '"+key+"'")   
 
     def get_items(self, keys=None):
         if keys is None:
@@ -208,6 +209,18 @@ class GetSetItemsMixin( HasTraits ):
             else:
                 d[key] = attr
         return d
+ 
+    def array_formation(self)
+        self.hall_V_data        = self.getattr(self, 'hall_voltage')
+        self.login_V_data       = self.getattr(self, 'lockin_data')
+        self.control_V_data     = self.getattr(self, 'voltage')
+
+        self.plot_data_on_x()
+        self._update_naming_x()
+        self.plot_data_on_y()
+        self._update_naming_y()
+
+        self._create_plot()
 
     def save(self, filename):
         """detects the format of the savefile and saves it according to the file-ending. .txt and .asc result in an ascii sav,
