@@ -218,21 +218,21 @@ class GetSetItemsMixin( HasTraits ):
 
          
     def load(self, filename):
-        if filename == '':
+        if self.filename == '':
             raise IOError('Empty filename. Specify a filename and try again!')
-        if os.access(filename, os.F_OK):
-            logging.getLogger().debug('attempting to restore state of '+self.__str__()+' from '+filename+'...')
+        if os.access(self.filename, os.F_OK):
+            logging.getLogger().debug('attempting to restore state of '+self.__str__()+' from '+self.filename+'...')
             try:
                 logging.getLogger().debug('trying binary mode...')  
-                self.set_items(pickle.load(open(filename,'rb')))
+                self.set_items(pickle.load(open(self.filename,'rb')))
             except:
                 try:
                     logging.getLogger().debug('trying text mode...')  
-                    self.set_items(pickle.load(open(filename,'r')))
+                    self.set_items(pickle.load(open(self.filename,'r')))
                 except:
                     try:
                         logging.getLogger().debug('trying unicode text mode...')  
-                        self.set_items(pickle.load(open(filename,'rU')))
+                        self.set_items(pickle.load(open(self.filename,'rU')))
                     except:
                         logging.getLogger().debug('failed to restore state of '+self.__str__()+'.')  
                         raise IOError('Load failed.')
@@ -241,9 +241,9 @@ class GetSetItemsMixin( HasTraits ):
             raise IOError('File does not exist.')
 
     def _save_button_fired(self):
-        self.filename = self.filename =save_file()
+        self.filename = save_file()
         if os.access(self.filename, os.F_OK):
-            if not warning('File exists. Overwrite?'):
+            if not None:
                 return
         try:
             self.save(self.filename)
@@ -251,7 +251,7 @@ class GetSetItemsMixin( HasTraits ):
             warning(err.message, buttons=[OKButton])
 
     def _load_button_fired(self):
-        self.filename = load_file()
+        self.filename = open_file()
         try:
             self.load(self.filename)
         except IOError as err:
