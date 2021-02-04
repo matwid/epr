@@ -39,11 +39,11 @@ class EPR( FreeJob, GetSetItemsMixin ):
     
     v_begin           = Range(low=0., high=10.,    value=4.4,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
     v_end             = Range(low=0.001, high=10.,    value=4.7,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
-    v_bias            = Float(default_value=4.4,label=' ')
+    v_bias            = Range(low=0.0,  high=10. , value = 4.4, label=' ',mode = 'text',    auto_set=False, enter_set=True)
     v_delta           = Range(low=0., high=10.,       value=.001,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
 
-    x_axis           = Enum('control voltage', 'hall voltage','logIn voltage')
-    y_axis           = Enum('logIn voltage','control voltage', 'hall voltage')
+    x_axis           = Enum('control voltage', 'hall voltage','logIn voltage', 'nv')
+    y_axis           = Enum('logIn voltage','control voltage', 'hall voltage', 'nv')
       
 
     v_divisions       = Range(low=0, high=1e6,       value=100,     desc='divisions [#]',  label='divisions [#]',   mode='text', auto_set=False, enter_set=True)
@@ -63,6 +63,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     login_V_data      = Array()#    
     hall_V_data       = Array()#
     control_V_data    = Array()#
+    NV                = Array()#
 
     total_length      = Float()#for time proceed only
 
@@ -79,7 +80,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
     max_current = Float(default_value=10e-3, label='max current')
 
-    get_set_items=['__doc__', 'v_begin', 'v_end', 'v_delta', 'seconds_per_point', 'v_bias', 'voltage', 'hall_voltage', 'lockin_data' ]
+    get_set_items=['__doc__', 'v_begin', 'v_end', 'v_delta', 'seconds_per_point', 'v_bias', 'voltage', 'hall_voltage', 'lockin_data', 'NV' ]
 
     traits_view = View(VGroup(HGroup(Item('start_button',   show_label=False),
                                      Item('stop_button',   show_label=False),
@@ -152,6 +153,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
             self.hall_V_data  = np.array(())
             self.lockin_data  = np.array(())
             self.hall_voltage  = np.array(())
+            self.NV  = np.array(())
 
             total_length = len(np.arange(self.v_begin, self.v_end, self.v_delta))
 
@@ -177,6 +179,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 measured_data = self.task_in.read(50)
                 measured_voltage = np.mean(measured_data[0])
                 lockin_data = np.mean(measured_data[1])
+                NV_data = np.mean(measured_data[2])
                 self.bias_value = measured_voltage
 
                 #lockin_data = self.task_lockin.read()
@@ -185,6 +188,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 self.hall_V_data          = np.append(self.hall_V_data,     measured_voltage)
                 self.login_V_data         = np.append(self.login_V_data,    lockin_data)
                 self.control_V_data       = np.append(self.control_V_data,  v)
+                self.NV       = np.append(self.NV, NV_data )
                 
                 # writes the chosen data into the plot arrays
                 self.plot_data_on_x()
@@ -222,28 +226,20 @@ class EPR( FreeJob, GetSetItemsMixin ):
     #################################################################
 
 
-    def _bias_button_fired(self): #slowly increase/decrease of voltage, while using the bias button
-        if self.first_bias is 'true':
-            voltage_array = np.arange(0.01,self.v_bias, 0.001) 
+    def _bias_button_fired(self): #slowly increase/decrease of voltage, while using the bias button   
+        if self.bias_set < self.v_bias:
+            voltage_array = np.arange(self.bias_set,self.v_bias, 0.01) 
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
-                time.sleep(0.01)  
-            self.first_bias = 'false'
-            self.bias_set = self.val
+                time.sleep(0.01)
+            self.bias_set = val
         else:
-            if self.bias_set < self.v_bias:
-                voltage_array = np.arange(self.bias_set,self.v_bias, 0.01) 
-                for i,val in enumerate(voltage_array):
-                    self.task_out.write(val) 
-                    time.sleep(0.01)
-                self.bias_set = val
-            else:
-                voltage_array = np.arange(self.v_bias,self.bias_set, 0.01) 
-                voltage_array = np.flipud(voltage_array)
-                for i,val in enumerate(voltage_array):
-                    self.task_out.write(val) 
-                    time.sleep(0.01)
-                self.bias_set = val
+            voltage_array = np.arange(self.v_bias,self.bias_set, 0.01) 
+            voltage_array = np.flipud(voltage_array)
+            for i,val in enumerate(voltage_array):
+                self.task_out.write(val) 
+                time.sleep(0.01)
+            #self.bias_set = val
         self.bias_button_was_fired = 'true'
 
        
@@ -264,11 +260,11 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
     def increase_voltage(self): #makes sure, that the voltage increases slowly 
-            ''' if self.bias_button_was_fired is 'true':
-            voltage_array = np.arange(self.v_bias,self.v_begin, 0.01)
+            if self.bias_button_was_fired is 'true':
+                voltage_array = np.arange(self.v_bias,self.v_begin, 0.01)
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
-                time.sleep(0.01)'''
+                time.sleep(0.01)
       
             voltage_array = np.arange(self.v_bias,self.v_begin, 0.01)
             for i,val in enumerate(voltage_array):
@@ -370,6 +366,9 @@ class EPR( FreeJob, GetSetItemsMixin ):
         elif self.x_axis == 'logIn voltage':
             self.x_data_plot =  self.login_V_data
             return
+        elif self.x_axis == 'logIn voltage':
+            self.x_data_plot =  self.NV
+            return            
             
 
 
@@ -380,8 +379,11 @@ class EPR( FreeJob, GetSetItemsMixin ):
         elif self.y_axis == 'hall voltage':
             self.y_data_plot = self.hall_V_data
             return
-        elif self.y_axis == 'logIn voltage':
+        elif self.y_axis == 'nv':
             self.y_data_plot =  self.login_V_data
+            return
+        elif self.y_axis == 'nv':
+            self.y_data_plot =  self.NV
             return
 
 if __name__=='__main__':

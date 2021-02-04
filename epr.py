@@ -66,6 +66,7 @@ task_out = nidaqmx.Task()
 
 task_in.ai_channels.add_ai_voltage_chan("Dev1/ai0")
 task_in.ai_channels.add_ai_voltage_chan("Dev1/ai1")
+task_in.ai_channels.add_ai_voltage_chan("Dev1/ai4")
 task_in.ai_term_cfg=TerminalConfiguration.RSE
 #task_in.timing.cfg_samp_clk_timing(rate=1000)     #source of the sample clock, sample rate and the number of samples to acquire
 task_in.ai_min = 0
