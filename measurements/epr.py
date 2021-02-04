@@ -188,7 +188,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 self.hall_V_data          = np.append(self.hall_V_data,     measured_voltage)
                 self.login_V_data         = np.append(self.login_V_data,    lockin_data)
                 self.control_V_data       = np.append(self.control_V_data,  v)
-                self.NV       = np.append(self.NV, NV_data )
+                self.NV                   = np.append(self.NV, NV_data )
                 
                 # writes the chosen data into the plot arrays
                 self.plot_data_on_x()
@@ -213,7 +213,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
         finally:
             self.measurment_finished = 'true'
             if self.measurment_stopped is 'false':
-                #self.decrease_voltage()
+                self.decrease_voltage()
                 self.task_out.write(self.v_bias)
             self.set_data_for_get_set_items()
             self.task_in.stop()
@@ -239,7 +239,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
                 time.sleep(0.01)
-            #self.bias_set = val
+            self.bias_set = val
         self.bias_button_was_fired = 'true'
 
        
@@ -366,7 +366,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
         elif self.x_axis == 'logIn voltage':
             self.x_data_plot =  self.login_V_data
             return
-        elif self.x_axis == 'logIn voltage':
+        elif self.x_axis == 'nv':
             self.x_data_plot =  self.NV
             return            
             
@@ -379,7 +379,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
         elif self.y_axis == 'hall voltage':
             self.y_data_plot = self.hall_V_data
             return
-        elif self.y_axis == 'nv':
+        elif self.y_axis == 'logIn voltage':
             self.y_data_plot =  self.login_V_data
             return
         elif self.y_axis == 'nv':
