@@ -39,7 +39,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
     
     v_begin           = Range(low=0., high=10.,    value=4.4,    desc='begin [V]',  label='begin [V]',   mode='text', auto_set=False, enter_set=True)
     v_end             = Range(low=0.001, high=10.,    value=4.7,      desc='end [V]',    label='end [V]',     mode='text', auto_set=False, enter_set=True)
-    v_bias            = Float(default_value=4.5,label=' ')
+    v_bias            = Float(default_value=4.4,label=' ')
     v_delta           = Range(low=0., high=10.,       value=.001,     desc='delta [V]',  label='delta [V]',   mode='text', auto_set=False, enter_set=True)
 
     x_axis           = Enum('control voltage', 'hall voltage','logIn voltage')
@@ -142,11 +142,6 @@ class EPR( FreeJob, GetSetItemsMixin ):
         self.measurment_stopped = 'false'
         self.task_in.start()
         
-
-        """
-        self.plot_data_on_x()
-        self.plot_data_on_x()
-        """
         try:
             self.state='run'
 
@@ -206,6 +201,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
         except:
             logging.getLogger().exception('Error in EPR measurement.')
             self.decrease_voltage()
+            self.task_out.write(self.v_bias)
             self.task_out.stop()
             self.task_in.stop()
             self.state = 'error'
@@ -213,7 +209,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
         finally:
             self.measurment_finished = 'true'
             if self.measurment_stopped is 'false':
-                self.decrease_voltage()
+                #self.decrease_voltage()
+                self.task_out.write(self.v_bias)
             self.set_data_for_get_set_items()
             self.task_in.stop()
             self.task_out.stop()
@@ -235,13 +232,13 @@ class EPR( FreeJob, GetSetItemsMixin ):
             self.bias_set = self.val
         else:
             if self.bias_set < self.v_bias:
-                voltage_array = np.arange(self.bias_set,self.v_bias, 0.001) 
+                voltage_array = np.arange(self.bias_set,self.v_bias, 0.01) 
                 for i,val in enumerate(voltage_array):
                     self.task_out.write(val) 
                     time.sleep(0.01)
                 self.bias_set = val
             else:
-                voltage_array = np.arange(self.v_bias,self.bias_set, 0.001) 
+                voltage_array = np.arange(self.v_bias,self.bias_set, 0.01) 
                 voltage_array = np.flipud(voltage_array)
                 for i,val in enumerate(voltage_array):
                     self.task_out.write(val) 
@@ -267,16 +264,16 @@ class EPR( FreeJob, GetSetItemsMixin ):
 
 
     def increase_voltage(self): #makes sure, that the voltage increases slowly 
-        if self.bias_button_was_fired is 'true':
-            voltage_array = np.arange(self.v_bias,self.v_begin, 0.001)
+            ''' if self.bias_button_was_fired is 'true':
+            voltage_array = np.arange(self.v_bias,self.v_begin, 0.01)
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
-                time.sleep(0.001)
-        else:
-            voltage_array = np.arange(0.001,self.v_begin, 0.01)
+                time.sleep(0.01)'''
+      
+            voltage_array = np.arange(self.v_bias,self.v_begin, 0.01)
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
-                time.sleep(0.001)
+                time.sleep(0.01)
 
 
     def decrease_voltage(self): #makes sure, that the voltage decreases slowly 
@@ -287,7 +284,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
                 self.task_out.write(val) 
                 time.sleep(0.01)
         else:
-            voltage_array = np.arange(0.001,self.current_voltage, 0.01) 
+            voltage_array = np.arange(self.v_bias,self.current_voltage, 0.01) 
             voltage_array = np.flipud(voltage_array)
             for i,val in enumerate(voltage_array):
                 self.task_out.write(val) 
@@ -305,7 +302,8 @@ class EPR( FreeJob, GetSetItemsMixin ):
         plot.tools.append(SaveTool(plot))
         self.plot_data = plot_data
         self.plot = plot
-
+        
+        
 
     def _update_naming_x(self): 
         if self.x_axis == 'control voltage':
@@ -315,8 +313,9 @@ class EPR( FreeJob, GetSetItemsMixin ):
             self.plot.index_axis.title = 'hall voltage [V]'
             return
         elif self.x_axis == 'logIn voltage':
-            self.plot.index_axis.title = 'logIn voltage [V]'
+            self.plot.index_axis.title = 'logIn voltage [V]' 
             return
+           
 
     def _update_naming_y(self):   
         if self.y_axis == 'control voltage':
@@ -371,6 +370,7 @@ class EPR( FreeJob, GetSetItemsMixin ):
         elif self.x_axis == 'logIn voltage':
             self.x_data_plot =  self.login_V_data
             return
+            
 
 
     def plot_data_on_y(self):    

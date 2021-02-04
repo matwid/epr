@@ -1,0 +1,1752 @@
+2021-01-26 17:35:12,093 - epr.<module> - INFO - Starting logger.
+2021-01-26 17:35:12,422 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 17:35:13,223 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 17:35:14,192 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 17:35:14,196 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 17:52:31,591 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001D7D5505E28>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 238, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-26 17:54:31,732 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-26_17h54m19, started 7172)>
+2021-01-26 17:54:31,742 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-26 17:55:40,636 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001D7D5505E28>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 252, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-26 18:37:52,702 - epr.<module> - INFO - Starting logger.
+2021-01-26 18:37:53,358 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 18:37:54,553 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 18:37:55,009 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 18:37:55,016 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 18:38:07,020 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-26_18h37m57, started 17220)>
+2021-01-26 18:38:07,020 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-26 18:44:57,448 - epr.<module> - INFO - Starting logger.
+2021-01-26 18:44:57,764 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 18:44:58,412 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 18:44:58,810 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 18:44:58,819 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 18:54:59,208 - epr.<module> - INFO - Starting logger.
+2021-01-26 18:54:59,634 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 18:55:00,297 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 18:55:00,660 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 18:55:00,667 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 18:55:15,860 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-26_18h55m04, started 15496)>
+2021-01-26 18:55:15,877 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-26 18:56:28,961 - epr.<module> - INFO - Starting logger.
+2021-01-26 18:56:29,269 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 18:56:29,925 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 18:56:30,299 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 18:56:30,305 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 18:56:41,726 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 18:59:29,545 - epr.<module> - INFO - Starting logger.
+2021-01-26 18:59:29,848 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 18:59:30,670 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 18:59:31,037 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 18:59:31,042 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:00:12,183 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:00:12,484 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:00:13,276 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:00:13,646 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:00:13,651 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:01:02,856 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:01:02,856 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:01:02,858 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:01:02,858 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:01:02,891 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:01:02,891 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:01:05,411 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000215A0E3C7C8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = load_file()
+NameError: name 'load_file' is not defined
+2021-01-26 19:01:05,411 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000215A0E3C7C8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = load_file()
+NameError: name 'load_file' is not defined
+2021-01-26 19:03:11,849 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:03:12,148 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:03:12,868 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:03:13,225 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:03:13,236 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:03:19,366 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001F518966B88>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = load_file()
+NameError: name 'load_file' is not defined
+2021-01-26 19:03:35,936 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:03:36,338 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:03:37,000 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:03:37,371 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:03:37,376 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:03:39,593 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000229020BAD68>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = path()
+NameError: name 'path' is not defined
+2021-01-26 19:10:45,159 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:11:31,768 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:11:31,768 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:11:39,857 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:13:15,718 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:13:33,612 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:13:58,609 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:13:58,609 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:14:25,383 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:14:25,383 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:14:25,383 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:15:09,178 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:15:09,178 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:15:09,178 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:15:09,178 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:15:09,589 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:15:09,589 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:15:09,589 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:15:09,589 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:15:10,224 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:15:10,224 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:15:10,224 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:15:10,224 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:15:10,582 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:15:10,582 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:15:10,582 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:15:10,582 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:15:10,588 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:15:10,588 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:15:10,588 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:15:10,588 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:15:23,891 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-26 19:15:23,891 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-26 19:15:23,891 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-26 19:15:23,891 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-26 19:15:23,892 - utility.load - DEBUG - trying binary mode...
+2021-01-26 19:15:23,892 - utility.load - DEBUG - trying binary mode...
+2021-01-26 19:15:23,892 - utility.load - DEBUG - trying binary mode...
+2021-01-26 19:15:23,892 - utility.load - DEBUG - trying binary mode...
+2021-01-26 19:15:23,899 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> restored.
+2021-01-26 19:15:23,899 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> restored.
+2021-01-26 19:15:23,899 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> restored.
+2021-01-26 19:15:23,899 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000217CD6A9FA8> restored.
+2021-01-26 19:15:54,135 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CD6A9FA8>, trait: save_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in _save_button_fired
+    self.filename = save_file()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:15:54,135 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CD6A9FA8>, trait: save_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in _save_button_fired
+    self.filename = save_file()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:15:54,135 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CD6A9FA8>, trait: save_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in _save_button_fired
+    self.filename = save_file()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:15:54,135 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CD6A9FA8>, trait: save_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in _save_button_fired
+    self.filename = save_file()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:19:57,916 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:19:57,916 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:19:57,916 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:19:57,916 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:19:57,916 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:19:57,918 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:19:57,918 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:19:57,918 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:19:57,918 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:19:57,918 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:19:57,944 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:19:57,944 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:19:57,944 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:19:57,944 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:19:57,944 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:20:02,781 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CDB7FFA8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = askopenfilename()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:20:02,781 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CDB7FFA8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = askopenfilename()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:20:02,781 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CDB7FFA8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = askopenfilename()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:20:02,781 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CDB7FFA8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = askopenfilename()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:20:02,781 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000217CDB7FFA8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = askopenfilename()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-26 19:20:11,246 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:20:11,652 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:20:12,304 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:20:12,678 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:20:12,684 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:20:17,769 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000261E50B08E8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-26 19:20:17,769 - utility.load - DEBUG - trying binary mode...
+2021-01-26 19:20:17,771 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000261E50B08E8> restored.
+2021-01-26 19:25:10,480 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:25:10,890 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:25:11,549 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:25:11,908 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:25:11,916 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:25:13,163 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000023DD2B69FA8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = path.abspath()
+NameError: name 'path' is not defined
+2021-01-26 19:30:14,997 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:30:15,404 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:30:16,048 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:30:16,399 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:30:16,407 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:30:18,076 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000016619958048>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = File
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of <class 'traits.trait_types.File'> <class 'type'> was specified.
+2021-01-26 19:32:16,556 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:32:16,958 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:32:17,593 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:32:17,965 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:32:17,972 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:32:19,743 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000202758E9588>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = File()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of <traits.trait_types.File object at 0x000002027263FD08> <class 'traits.trait_types.File'> was specified.
+2021-01-26 19:40:04,572 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:40:05,002 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:40:05,747 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:40:06,129 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:40:06,137 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:40:07,266 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000018E477C5228>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = File()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of <traits.trait_types.File object at 0x0000018E4438BE88> <class 'traits.trait_types.File'> was specified.
+2021-01-26 19:42:01,871 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:42:02,293 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:42:03,012 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:42:03,383 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:42:03,392 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:42:04,648 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000002B439F4C348>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in _load_button_fired
+    self.filename = File
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of <class 'traits.trait_types.File'> <class 'type'> was specified.
+2021-01-26 19:46:56,235 - epr.<module> - INFO - Starting logger.
+2021-01-26 19:46:56,645 - cron.run - INFO - Starting Cron Daemon.
+2021-01-26 19:46:57,318 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-26 19:46:57,680 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-26 19:46:57,687 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-26 19:47:53,158 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000202E27B8FA8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-26 19:47:53,158 - utility.load - DEBUG - trying binary mode...
+2021-01-26 19:47:53,161 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000202E27B8FA8> restored.
+2021-01-27 10:19:08,198 - epr.<module> - INFO - Starting logger.
+2021-01-27 10:19:08,787 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 10:19:09,967 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 10:19:10,364 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 10:19:10,373 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 10:20:07,043 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001A073BC2468> from C:/Users/Administrator/Documents/data/20210119/temp250.pys...
+2021-01-27 10:20:07,043 - utility.load - DEBUG - trying binary mode...
+2021-01-27 10:20:07,047 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001A073BC2468> restored.
+2021-01-27 10:27:14,223 - epr.<module> - INFO - Starting logger.
+2021-01-27 10:27:14,635 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 10:27:15,307 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 10:27:15,676 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 10:27:15,683 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 10:27:36,708 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000020D77FCA288> from C:/Users/Administrator/Documents/data/20210115/20210115_dpph02.pys...
+2021-01-27 10:27:36,708 - utility.load - DEBUG - trying binary mode...
+2021-01-27 10:27:36,714 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000020D77FCA288> restored.
+2021-01-27 10:27:36,714 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000020D77FCA288>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 257, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 242, in load
+    close(self.filename)
+NameError: name 'close' is not defined
+2021-01-27 10:29:55,504 - epr.<module> - INFO - Starting logger.
+2021-01-27 10:29:55,900 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 10:29:56,531 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 10:29:56,901 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 10:29:56,908 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 10:30:16,143 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000002E2246C76A8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 10:30:16,143 - utility.load - DEBUG - trying binary mode...
+2021-01-27 10:30:16,146 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000002E2246C76A8> restored.
+2021-01-27 14:44:54,185 - epr.<module> - INFO - Starting logger.
+2021-01-27 14:44:54,803 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 14:44:56,035 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 14:44:56,412 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 14:44:56,417 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 14:46:09,894 - epr.<module> - INFO - Starting logger.
+2021-01-27 14:46:10,214 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 14:46:11,012 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 14:46:11,400 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 14:46:11,404 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 16:30:59,722 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001D31EBDD348>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 235, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-27 18:47:52,585 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:48:09,705 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:48:09,705 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:48:10,387 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:48:10,387 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:48:11,541 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 18:48:11,541 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 18:48:11,940 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 18:48:11,940 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 18:48:11,946 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 18:48:11,946 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 18:48:27,868 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000020611E28D08> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 18:48:27,868 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000020611E28D08> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 18:48:27,869 - utility.load - DEBUG - trying binary mode...
+2021-01-27 18:48:27,869 - utility.load - DEBUG - trying binary mode...
+2021-01-27 18:48:27,871 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 18:48:27,871 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 18:48:27,872 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 18:48:27,872 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 18:48:27,873 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 18:48:27,873 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 18:48:27,874 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 18:48:27,874 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 18:48:27,874 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 18:48:27,874 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 18:48:27,875 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 18:48:27,875 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 18:48:27,876 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 18:48:27,876 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 18:48:27,877 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 18:48:27,877 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 18:48:27,878 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 18:48:27,878 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 18:48:27,878 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000020611E28D08> restored.
+2021-01-27 18:48:27,878 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000020611E28D08> restored.
+2021-01-27 18:49:46,541 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:49:46,541 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:49:46,541 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:49:46,543 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:49:46,543 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:49:46,543 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:50:37,245 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:50:37,245 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:50:37,245 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:50:37,245 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:50:37,259 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:50:37,259 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:50:37,259 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:50:37,259 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:50:45,125 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:50:45,534 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:50:46,173 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 18:50:46,527 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 18:50:46,542 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 18:51:05,133 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001E5ACDD9528> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 18:51:05,133 - utility.load - DEBUG - trying binary mode...
+2021-01-27 18:51:05,138 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 18:51:05,139 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 18:51:05,139 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 18:51:05,139 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 18:51:05,139 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 18:51:05,139 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 18:51:05,140 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 18:51:05,140 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 18:51:05,140 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 18:51:05,141 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001E5ACDD9528> restored.
+2021-01-27 18:51:39,198 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:51:39,198 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:51:39,199 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:51:39,199 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:51:47,606 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:51:48,007 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:51:48,629 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 18:51:48,993 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 18:51:48,997 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 18:52:10,834 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001C3531BAF48> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 18:52:10,835 - utility.load - DEBUG - trying binary mode...
+2021-01-27 18:52:10,839 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 18:52:10,840 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 18:52:10,840 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 18:52:10,841 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 18:52:10,841 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 18:52:10,841 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 18:52:10,842 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 18:52:10,842 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 18:52:10,844 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 18:52:10,845 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001C3531BAF48> restored.
+2021-01-27 18:52:59,780 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:53:00,188 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:53:00,845 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 18:53:01,197 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 18:53:01,202 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 18:53:06,346 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000193F571CB88> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 18:53:06,346 - utility.load - DEBUG - trying binary mode...
+2021-01-27 18:53:06,348 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000193F571CB88> restored.
+2021-01-27 18:53:38,340 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:53:38,340 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:53:38,341 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:53:38,341 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:53:44,086 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:53:44,486 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:53:45,124 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 18:53:45,487 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 18:53:45,494 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 18:53:50,272 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000223F3DBBE28> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 18:53:50,272 - utility.load - DEBUG - trying binary mode...
+2021-01-27 18:53:50,274 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 18:53:50,274 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 18:53:50,274 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 18:53:50,275 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 18:53:50,275 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 18:53:50,275 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 18:53:50,275 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 18:53:50,275 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 18:53:50,276 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 18:53:50,276 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000223F3DBBE28> restored.
+2021-01-27 18:54:56,446 - epr.<module> - INFO - Starting logger.
+2021-01-27 18:54:56,845 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 18:54:57,498 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 18:54:57,861 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 18:54:57,866 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 18:55:03,451 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000022CB0C81048> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 18:55:03,451 - utility.load - DEBUG - trying binary mode...
+2021-01-27 18:55:03,467 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 18:55:03,478 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 18:55:03,493 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 18:55:03,509 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 18:55:03,520 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 18:55:03,535 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 18:55:03,546 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 18:55:03,559 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 18:55:03,571 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 18:55:03,571 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000022CB0C81048> restored.
+2021-01-27 19:02:37,907 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:02:38,330 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:02:38,982 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:02:39,337 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:02:39,347 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:02:59,868 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001E47D6BD708> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:02:59,868 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:02:59,870 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:02:59,871 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:02:59,871 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:02:59,871 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:02:59,871 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:02:59,871 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:02:59,872 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:02:59,872 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:02:59,873 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:02:59,873 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001E47D6BD708> restored.
+2021-01-27 19:04:55,670 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:04:56,073 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:04:56,726 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:04:57,092 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:04:57,097 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:05:17,394 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000002810C3AB6A8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:05:17,394 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:05:17,397 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:05:17,397 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:05:17,398 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:05:17,399 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:05:17,399 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:05:17,399 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:05:17,400 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:05:17,400 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:05:17,401 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:05:17,402 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000002810C3AB6A8> restored.
+2021-01-27 19:06:05,178 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:06:05,579 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:06:06,221 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:06:06,567 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:06:06,572 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:06:15,041 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001F6044AC468> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:06:15,041 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:06:15,044 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:06:15,044 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:06:15,044 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:06:15,044 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:06:15,044 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:06:15,045 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:06:15,045 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:06:15,045 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:06:15,046 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:06:15,046 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001F6044AC468> restored.
+2021-01-27 19:06:15,047 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001F6044AC468>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 273, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 258, in load
+    close(self.filename)
+NameError: name 'close' is not defined
+2021-01-27 19:07:14,624 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:07:15,024 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:07:15,694 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:07:16,051 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:07:16,059 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:07:23,100 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001D1452CAD08> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:07:23,101 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:07:23,106 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:07:23,106 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:07:23,108 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:07:23,108 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:07:23,109 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:07:23,110 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:07:23,110 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:07:23,112 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:07:23,113 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:07:23,113 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001D1452CAD08> restored.
+2021-01-27 19:07:23,114 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001D1452CAD08>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 273, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 258, in load
+    self.filename = close()
+NameError: name 'close' is not defined
+2021-01-27 19:08:50,635 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:08:51,037 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:08:51,681 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:08:52,053 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:08:52,060 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:08:57,011 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001C2B3019D68> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:08:57,012 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:08:57,018 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:08:57,019 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:08:57,019 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:08:57,019 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:08:57,019 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:08:57,020 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:08:57,020 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:08:57,020 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:08:57,021 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:08:57,021 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001C2B3019D68> restored.
+2021-01-27 19:08:57,021 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001C2B3019D68>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 273, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 258, in load
+    os.close(self.filename)
+TypeError: an integer is required (got type str)
+2021-01-27 19:10:47,980 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:10:47,980 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:10:47,981 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:10:47,981 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:10:54,161 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:10:54,579 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:10:55,258 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:10:55,637 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:10:55,645 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:11:07,250 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000002B67A7D4A08> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:11:07,250 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:11:07,253 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:11:07,253 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:11:07,253 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:11:07,253 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:11:07,253 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:11:07,254 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:11:07,254 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:11:07,254 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:11:07,256 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:11:07,256 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000002B67A7D4A08> restored.
+2021-01-27 19:13:28,232 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:13:28,641 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:13:29,319 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:13:29,688 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:13:29,693 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:13:49,348 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000154461C48E8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:13:49,348 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:13:49,351 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:13:49,351 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:13:49,351 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:13:49,352 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:13:49,353 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:13:49,354 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:13:49,355 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:13:49,357 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:13:49,359 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:13:49,360 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000154461C48E8> restored.
+2021-01-27 19:14:44,382 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:14:44,783 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:14:45,473 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:14:45,826 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:14:45,834 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:14:50,840 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001E599BD91C8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:14:50,841 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:14:50,843 - utility.set_items - WARNING - failed to set item '__doc__'
+2021-01-27 19:14:50,843 - utility.set_items - WARNING - failed to set item 'v_begin'
+2021-01-27 19:14:50,844 - utility.set_items - WARNING - failed to set item 'v_end'
+2021-01-27 19:14:50,844 - utility.set_items - WARNING - failed to set item 'v_delta'
+2021-01-27 19:14:50,845 - utility.set_items - WARNING - failed to set item 'seconds_per_point'
+2021-01-27 19:14:50,846 - utility.set_items - WARNING - failed to set item 'v_bias'
+2021-01-27 19:14:50,846 - utility.set_items - WARNING - failed to set item 'voltage'
+2021-01-27 19:14:50,847 - utility.set_items - WARNING - failed to set item 'hall_voltage'
+2021-01-27 19:14:50,848 - utility.set_items - WARNING - failed to set item 'lockin_data'
+2021-01-27 19:14:50,849 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001E599BD91C8> restored.
+2021-01-27 19:15:29,157 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:15:29,574 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:15:30,293 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:15:30,662 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:15:30,669 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:15:43,206 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000235E4F83048> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:15:43,206 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:15:43,213 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:15:43,214 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:15:43,214 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x00000235E4F83048>.
+2021-01-27 19:15:43,215 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000235E4F83048>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 245, in load
+    self.set_items(pickle.load(open(self.filename,'rb')))
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 218, in array_formation
+    self.hall_V_data        = self.getattr(self, 'hall_voltage')
+AttributeError: 'EPR' object has no attribute 'getattr'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 249, in load
+    self.set_items(pickle.load(open(self.filename,'r')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 253, in load
+    self.set_items(pickle.load(open(self.filename,'rU')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 275, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 256, in load
+    raise IOError('Load failed.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 277, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:18:05,077 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:18:05,477 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:18:06,180 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:18:06,536 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:18:06,542 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:18:31,878 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000026AC5FDAE28> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:18:31,878 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:18:31,892 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000026AC5FDAE28> restored.
+2021-01-27 19:19:22,224 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:19:22,622 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:19:23,274 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:19:23,640 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:19:23,645 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:19:27,408 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000209083645E8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:19:27,408 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:19:27,424 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x00000209083645E8> restored.
+2021-01-27 19:22:18,126 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:22:18,526 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:23:37,765 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:23:38,077 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:23:38,830 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:23:39,200 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:23:39,206 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:23:50,453 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000002352C6E01C8> from C:/Users/Administrator/Documents/data/20210122/Test2.pys...
+2021-01-27 19:23:50,453 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:23:50,465 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000002352C6E01C8> restored.
+2021-01-27 19:26:56,558 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:26:56,965 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:26:57,673 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:26:58,051 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:26:58,056 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:27:21,694 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001FFA66F3D08>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 273, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 238, in load
+    raise IOError('Empty filename. Specify a filename and try again!')
+OSError: Empty filename. Specify a filename and try again!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 275, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:28:44,165 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001FFA66F3D08> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:28:44,165 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:28:44,175 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001FFA66F3D08> restored.
+2021-01-27 19:30:41,640 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:30:42,042 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:30:42,708 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:30:43,070 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:30:43,076 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:30:47,322 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001CA35511168> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:30:47,322 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:30:47,324 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:30:47,325 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:30:47,325 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x000001CA35511168>.
+2021-01-27 19:30:47,325 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001CA35511168>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 243, in load
+    self.set_items(pickle.load(open(self.filename,'rb')))
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 220, in array_formation
+    self._update_index()
+TypeError: _update_index() missing 1 required positional argument: 'new'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 247, in load
+    self.set_items(pickle.load(open(self.filename,'r')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 251, in load
+    self.set_items(pickle.load(open(self.filename,'rU')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 273, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in load
+    raise IOError('Load failed.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 275, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:33:16,530 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-27_19h33m00, started 6924)>
+2021-01-27 19:33:16,540 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-27 19:33:21,431 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001CA35511168> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:33:21,431 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:33:21,432 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:33:21,435 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:33:21,436 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x000001CA35511168>.
+2021-01-27 19:33:21,436 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001CA35511168>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 243, in load
+    logging.getLogger().debug('trying binary mode...')
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 220, in array_formation
+    self.plot_data_on_x()
+TypeError: _update_index() missing 1 required positional argument: 'new'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 247, in load
+    logging.getLogger().debug('trying text mode...')
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 251, in load
+    logging.getLogger().debug('trying unicode text mode...')
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 273, in _load_button_fired
+    try:
+  File "C:\Users\Administrator\epr\tools\utility.py", line 254, in load
+    logging.getLogger().debug('failed to restore state of '+self.__str__()+'.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 275, in _load_button_fired
+    except IOError as err:
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:33:48,628 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:33:49,044 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:33:49,712 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:33:50,066 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:33:50,079 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:33:55,253 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001A6445E4228> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:33:55,253 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:33:55,266 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001A6445E4228> restored.
+2021-01-27 19:34:17,161 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 12.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:34:19,961 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000001A6445E4228> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:34:19,961 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:34:19,970 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x000001A6445E4228> restored.
+2021-01-27 19:36:08,043 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:36:08,352 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:36:09,090 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:36:09,447 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:36:09,453 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:36:14,762 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000020133DE6A08> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:36:14,762 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:36:14,776 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000020133DE6A08> restored.
+2021-01-27 19:37:05,054 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:37:05,054 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:37:05,055 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:37:05,055 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:37:10,925 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:37:11,240 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:37:12,034 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:37:12,392 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:37:12,397 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:37:23,723 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000002B9A34EA588> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:37:23,723 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:37:23,729 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000002B9A34EA588>, trait: x_data_plot, old value: [], new value: [4.4   4.401 4.402 4.403 4.404 4.405 4.406 4.407 4.408 4.409 4.41  4.411
+ 4.412 4.413 4.414 4.415 4.416 4.417 4.418 4.419 4.42  4.421 4.422 4.423
+ 4.424 4.425 4.426 4.427 4.428 4.429 4.43  4.431 4.432 4.433 4.434 4.435
+ 4.436 4.437 4.438 4.439 4.44  4.441 4.442 4.443 4.444 4.445 4.446 4.447
+ 4.448 4.449 4.45  4.451 4.452 4.453 4.454 4.455 4.456 4.457 4.458 4.459
+ 4.46  4.461 4.462 4.463 4.464 4.465 4.466 4.467 4.468 4.469 4.47  4.471
+ 4.472 4.473 4.474 4.475 4.476 4.477 4.478 4.479 4.48  4.481 4.482 4.483
+ 4.484 4.485 4.486 4.487 4.488 4.489 4.49  4.491 4.492 4.493 4.494 4.495
+ 4.496 4.497 4.498 4.499 4.5   4.501 4.502 4.503 4.504 4.505 4.506 4.507
+ 4.508 4.509 4.51  4.511 4.512 4.513 4.514 4.515 4.516 4.517 4.518 4.519
+ 4.52  4.521 4.522 4.523 4.524 4.525 4.526 4.527 4.528 4.529 4.53  4.531
+ 4.532 4.533 4.534 4.535 4.536 4.537 4.538 4.539 4.54  4.541 4.542 4.543
+ 4.544 4.545 4.546 4.547 4.548 4.549 4.55  4.551 4.552 4.553 4.554 4.555
+ 4.556 4.557 4.558 4.559 4.56  4.561 4.562 4.563 4.564 4.565 4.566 4.567
+ 4.568 4.569 4.57  4.571 4.572 4.573 4.574 4.575 4.576 4.577 4.578 4.579
+ 4.58  4.581 4.582 4.583 4.584 4.585 4.586 4.587 4.588 4.589 4.59  4.591
+ 4.592 4.593 4.594 4.595 4.596 4.597 4.598 4.599 4.6   4.601 4.602 4.603
+ 4.604 4.605 4.606 4.607 4.608 4.609 4.61  4.611 4.612 4.613 4.614 4.615
+ 4.616 4.617 4.618 4.619 4.62  4.621 4.622 4.623 4.624 4.625 4.626 4.627
+ 4.628 4.629 4.63  4.631 4.632 4.633 4.634 4.635 4.636 4.637 4.638 4.639
+ 4.64  4.641 4.642 4.643 4.644 4.645 4.646 4.647 4.648 4.649 4.65  4.651
+ 4.652 4.653 4.654 4.655 4.656 4.657 4.658 4.659 4.66  4.661 4.662 4.663
+ 4.664 4.665 4.666 4.667 4.668 4.669 4.67  4.671 4.672 4.673 4.674 4.675
+ 4.676 4.677 4.678 4.679 4.68  4.681 4.682 4.683 4.684 4.685 4.686 4.687
+ 4.688 4.689 4.69  4.691 4.692 4.693 4.694 4.695 4.696 4.697 4.698 4.699]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 616, in dispatch
+    handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 333, in _update_index
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot)
+NameError: name 'x_data_plot' is not defined
+2021-01-27 19:37:23,733 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:37:23,734 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:37:23,735 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x000002B9A34EA588>.
+2021-01-27 19:37:23,736 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000002B9A34EA588>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in load
+    self.set_items(pickle.load(open(self.filename,'rb')))
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 220, in array_formation
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot)
+NameError: name 'x_data_plot' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 248, in load
+    self.set_items(pickle.load(open(self.filename,'r')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 252, in load
+    self.set_items(pickle.load(open(self.filename,'rU')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 274, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 255, in load
+    raise IOError('Load failed.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 276, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:38:22,620 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:38:22,920 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:38:23,696 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:38:24,048 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:38:24,055 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:38:29,732 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000246A327D7C8> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:38:29,732 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:38:29,737 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000246A327D7C8>, trait: x_data_plot, old value: [], new value: [4.4   4.401 4.402 4.403 4.404 4.405 4.406 4.407 4.408 4.409 4.41  4.411
+ 4.412 4.413 4.414 4.415 4.416 4.417 4.418 4.419 4.42  4.421 4.422 4.423
+ 4.424 4.425 4.426 4.427 4.428 4.429 4.43  4.431 4.432 4.433 4.434 4.435
+ 4.436 4.437 4.438 4.439 4.44  4.441 4.442 4.443 4.444 4.445 4.446 4.447
+ 4.448 4.449 4.45  4.451 4.452 4.453 4.454 4.455 4.456 4.457 4.458 4.459
+ 4.46  4.461 4.462 4.463 4.464 4.465 4.466 4.467 4.468 4.469 4.47  4.471
+ 4.472 4.473 4.474 4.475 4.476 4.477 4.478 4.479 4.48  4.481 4.482 4.483
+ 4.484 4.485 4.486 4.487 4.488 4.489 4.49  4.491 4.492 4.493 4.494 4.495
+ 4.496 4.497 4.498 4.499 4.5   4.501 4.502 4.503 4.504 4.505 4.506 4.507
+ 4.508 4.509 4.51  4.511 4.512 4.513 4.514 4.515 4.516 4.517 4.518 4.519
+ 4.52  4.521 4.522 4.523 4.524 4.525 4.526 4.527 4.528 4.529 4.53  4.531
+ 4.532 4.533 4.534 4.535 4.536 4.537 4.538 4.539 4.54  4.541 4.542 4.543
+ 4.544 4.545 4.546 4.547 4.548 4.549 4.55  4.551 4.552 4.553 4.554 4.555
+ 4.556 4.557 4.558 4.559 4.56  4.561 4.562 4.563 4.564 4.565 4.566 4.567
+ 4.568 4.569 4.57  4.571 4.572 4.573 4.574 4.575 4.576 4.577 4.578 4.579
+ 4.58  4.581 4.582 4.583 4.584 4.585 4.586 4.587 4.588 4.589 4.59  4.591
+ 4.592 4.593 4.594 4.595 4.596 4.597 4.598 4.599 4.6   4.601 4.602 4.603
+ 4.604 4.605 4.606 4.607 4.608 4.609 4.61  4.611 4.612 4.613 4.614 4.615
+ 4.616 4.617 4.618 4.619 4.62  4.621 4.622 4.623 4.624 4.625 4.626 4.627
+ 4.628 4.629 4.63  4.631 4.632 4.633 4.634 4.635 4.636 4.637 4.638 4.639
+ 4.64  4.641 4.642 4.643 4.644 4.645 4.646 4.647 4.648 4.649 4.65  4.651
+ 4.652 4.653 4.654 4.655 4.656 4.657 4.658 4.659 4.66  4.661 4.662 4.663
+ 4.664 4.665 4.666 4.667 4.668 4.669 4.67  4.671 4.672 4.673 4.674 4.675
+ 4.676 4.677 4.678 4.679 4.68  4.681 4.682 4.683 4.684 4.685 4.686 4.687
+ 4.688 4.689 4.69  4.691 4.692 4.693 4.694 4.695 4.696 4.697 4.698 4.699]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 616, in dispatch
+    handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 333, in _update_index
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot + '######')
+NameError: name 'x_data_plot' is not defined
+2021-01-27 19:38:29,740 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:38:29,741 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:38:29,742 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x00000246A327D7C8>.
+2021-01-27 19:38:29,742 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000246A327D7C8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in load
+    self.set_items(pickle.load(open(self.filename,'rb')))
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 220, in array_formation
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot + '######')
+NameError: name 'x_data_plot' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 248, in load
+    self.set_items(pickle.load(open(self.filename,'r')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 252, in load
+    self.set_items(pickle.load(open(self.filename,'rU')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 274, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 255, in load
+    raise IOError('Load failed.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 276, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:39:57,236 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x00000246A327D7C8> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:39:57,236 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:39:57,243 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000246A327D7C8>, trait: x_data_plot, old value: [4.4   4.401 4.402 4.403 4.404 4.405 4.406 4.407 4.408 4.409 4.41  4.411
+ 4.412 4.413 4.414 4.415 4.416 4.417 4.418 4.419 4.42  4.421 4.422 4.423
+ 4.424 4.425 4.426 4.427 4.428 4.429 4.43  4.431 4.432 4.433 4.434 4.435
+ 4.436 4.437 4.438 4.439 4.44  4.441 4.442 4.443 4.444 4.445 4.446 4.447
+ 4.448 4.449 4.45  4.451 4.452 4.453 4.454 4.455 4.456 4.457 4.458 4.459
+ 4.46  4.461 4.462 4.463 4.464 4.465 4.466 4.467 4.468 4.469 4.47  4.471
+ 4.472 4.473 4.474 4.475 4.476 4.477 4.478 4.479 4.48  4.481 4.482 4.483
+ 4.484 4.485 4.486 4.487 4.488 4.489 4.49  4.491 4.492 4.493 4.494 4.495
+ 4.496 4.497 4.498 4.499 4.5   4.501 4.502 4.503 4.504 4.505 4.506 4.507
+ 4.508 4.509 4.51  4.511 4.512 4.513 4.514 4.515 4.516 4.517 4.518 4.519
+ 4.52  4.521 4.522 4.523 4.524 4.525 4.526 4.527 4.528 4.529 4.53  4.531
+ 4.532 4.533 4.534 4.535 4.536 4.537 4.538 4.539 4.54  4.541 4.542 4.543
+ 4.544 4.545 4.546 4.547 4.548 4.549 4.55  4.551 4.552 4.553 4.554 4.555
+ 4.556 4.557 4.558 4.559 4.56  4.561 4.562 4.563 4.564 4.565 4.566 4.567
+ 4.568 4.569 4.57  4.571 4.572 4.573 4.574 4.575 4.576 4.577 4.578 4.579
+ 4.58  4.581 4.582 4.583 4.584 4.585 4.586 4.587 4.588 4.589 4.59  4.591
+ 4.592 4.593 4.594 4.595 4.596 4.597 4.598 4.599 4.6   4.601 4.602 4.603
+ 4.604 4.605 4.606 4.607 4.608 4.609 4.61  4.611 4.612 4.613 4.614 4.615
+ 4.616 4.617 4.618 4.619 4.62  4.621 4.622 4.623 4.624 4.625 4.626 4.627
+ 4.628 4.629 4.63  4.631 4.632 4.633 4.634 4.635 4.636 4.637 4.638 4.639
+ 4.64  4.641 4.642 4.643 4.644 4.645 4.646 4.647 4.648 4.649 4.65  4.651
+ 4.652 4.653 4.654 4.655 4.656 4.657 4.658 4.659 4.66  4.661 4.662 4.663
+ 4.664 4.665 4.666 4.667 4.668 4.669 4.67  4.671 4.672 4.673 4.674 4.675
+ 4.676 4.677 4.678 4.679 4.68  4.681 4.682 4.683 4.684 4.685 4.686 4.687
+ 4.688 4.689 4.69  4.691 4.692 4.693 4.694 4.695 4.696 4.697 4.698 4.699], new value: [4.4   4.401 4.402 4.403 4.404 4.405 4.406 4.407 4.408 4.409 4.41  4.411
+ 4.412 4.413 4.414 4.415 4.416 4.417 4.418 4.419 4.42  4.421 4.422 4.423
+ 4.424 4.425 4.426 4.427 4.428 4.429 4.43  4.431 4.432 4.433 4.434 4.435
+ 4.436 4.437 4.438 4.439 4.44  4.441 4.442 4.443 4.444 4.445 4.446 4.447
+ 4.448 4.449 4.45  4.451 4.452 4.453 4.454 4.455 4.456 4.457 4.458 4.459
+ 4.46  4.461 4.462 4.463 4.464 4.465 4.466 4.467 4.468 4.469 4.47  4.471
+ 4.472 4.473 4.474 4.475 4.476 4.477 4.478 4.479 4.48  4.481 4.482 4.483
+ 4.484 4.485 4.486 4.487 4.488 4.489 4.49  4.491 4.492 4.493 4.494 4.495
+ 4.496 4.497 4.498 4.499 4.5   4.501 4.502 4.503 4.504 4.505 4.506 4.507
+ 4.508 4.509 4.51  4.511 4.512 4.513 4.514 4.515 4.516 4.517 4.518 4.519
+ 4.52  4.521 4.522 4.523 4.524 4.525 4.526 4.527 4.528 4.529 4.53  4.531
+ 4.532 4.533 4.534 4.535 4.536 4.537 4.538 4.539 4.54  4.541 4.542 4.543
+ 4.544 4.545 4.546 4.547 4.548 4.549 4.55  4.551 4.552 4.553 4.554 4.555
+ 4.556 4.557 4.558 4.559 4.56  4.561 4.562 4.563 4.564 4.565 4.566 4.567
+ 4.568 4.569 4.57  4.571 4.572 4.573 4.574 4.575 4.576 4.577 4.578 4.579
+ 4.58  4.581 4.582 4.583 4.584 4.585 4.586 4.587 4.588 4.589 4.59  4.591
+ 4.592 4.593 4.594 4.595 4.596 4.597 4.598 4.599 4.6   4.601 4.602 4.603
+ 4.604 4.605 4.606 4.607 4.608 4.609 4.61  4.611 4.612 4.613 4.614 4.615
+ 4.616 4.617 4.618 4.619 4.62  4.621 4.622 4.623 4.624 4.625 4.626 4.627
+ 4.628 4.629 4.63  4.631 4.632 4.633 4.634 4.635 4.636 4.637 4.638 4.639
+ 4.64  4.641 4.642 4.643 4.644 4.645 4.646 4.647 4.648 4.649 4.65  4.651
+ 4.652 4.653 4.654 4.655 4.656 4.657 4.658 4.659 4.66  4.661 4.662 4.663
+ 4.664 4.665 4.666 4.667 4.668 4.669 4.67  4.671 4.672 4.673 4.674 4.675
+ 4.676 4.677 4.678 4.679 4.68  4.681 4.682 4.683 4.684 4.685 4.686 4.687
+ 4.688 4.689 4.69  4.691 4.692 4.693 4.694 4.695 4.696 4.697 4.698 4.699]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 616, in dispatch
+    handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 333, in _update_index
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot + '######')
+NameError: name 'x_data_plot' is not defined
+2021-01-27 19:39:57,244 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:39:57,245 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:39:57,247 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x00000246A327D7C8>.
+2021-01-27 19:39:57,247 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000246A327D7C8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in load
+    self.set_items(pickle.load(open(self.filename,'rb')))
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 220, in array_formation
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot + '######')
+NameError: name 'x_data_plot' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 248, in load
+    self.set_items(pickle.load(open(self.filename,'r')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 252, in load
+    self.set_items(pickle.load(open(self.filename,'rU')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 274, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 255, in load
+    raise IOError('Load failed.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 276, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:40:09,738 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:40:09,738 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:40:09,739 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:40:09,739 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:40:15,827 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:40:16,128 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:40:16,815 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:40:17,181 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:40:17,185 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:40:25,687 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x000002B1D47C29A8> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:40:25,688 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:40:25,695 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000002B1D47C29A8>, trait: x_data_plot, old value: [], new value: [4.4   4.401 4.402 4.403 4.404 4.405 4.406 4.407 4.408 4.409 4.41  4.411
+ 4.412 4.413 4.414 4.415 4.416 4.417 4.418 4.419 4.42  4.421 4.422 4.423
+ 4.424 4.425 4.426 4.427 4.428 4.429 4.43  4.431 4.432 4.433 4.434 4.435
+ 4.436 4.437 4.438 4.439 4.44  4.441 4.442 4.443 4.444 4.445 4.446 4.447
+ 4.448 4.449 4.45  4.451 4.452 4.453 4.454 4.455 4.456 4.457 4.458 4.459
+ 4.46  4.461 4.462 4.463 4.464 4.465 4.466 4.467 4.468 4.469 4.47  4.471
+ 4.472 4.473 4.474 4.475 4.476 4.477 4.478 4.479 4.48  4.481 4.482 4.483
+ 4.484 4.485 4.486 4.487 4.488 4.489 4.49  4.491 4.492 4.493 4.494 4.495
+ 4.496 4.497 4.498 4.499 4.5   4.501 4.502 4.503 4.504 4.505 4.506 4.507
+ 4.508 4.509 4.51  4.511 4.512 4.513 4.514 4.515 4.516 4.517 4.518 4.519
+ 4.52  4.521 4.522 4.523 4.524 4.525 4.526 4.527 4.528 4.529 4.53  4.531
+ 4.532 4.533 4.534 4.535 4.536 4.537 4.538 4.539 4.54  4.541 4.542 4.543
+ 4.544 4.545 4.546 4.547 4.548 4.549 4.55  4.551 4.552 4.553 4.554 4.555
+ 4.556 4.557 4.558 4.559 4.56  4.561 4.562 4.563 4.564 4.565 4.566 4.567
+ 4.568 4.569 4.57  4.571 4.572 4.573 4.574 4.575 4.576 4.577 4.578 4.579
+ 4.58  4.581 4.582 4.583 4.584 4.585 4.586 4.587 4.588 4.589 4.59  4.591
+ 4.592 4.593 4.594 4.595 4.596 4.597 4.598 4.599 4.6   4.601 4.602 4.603
+ 4.604 4.605 4.606 4.607 4.608 4.609 4.61  4.611 4.612 4.613 4.614 4.615
+ 4.616 4.617 4.618 4.619 4.62  4.621 4.622 4.623 4.624 4.625 4.626 4.627
+ 4.628 4.629 4.63  4.631 4.632 4.633 4.634 4.635 4.636 4.637 4.638 4.639
+ 4.64  4.641 4.642 4.643 4.644 4.645 4.646 4.647 4.648 4.649 4.65  4.651
+ 4.652 4.653 4.654 4.655 4.656 4.657 4.658 4.659 4.66  4.661 4.662 4.663
+ 4.664 4.665 4.666 4.667 4.668 4.669 4.67  4.671 4.672 4.673 4.674 4.675
+ 4.676 4.677 4.678 4.679 4.68  4.681 4.682 4.683 4.684 4.685 4.686 4.687
+ 4.688 4.689 4.69  4.691 4.692 4.693 4.694 4.695 4.696 4.697 4.698 4.699]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 616, in dispatch
+    handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 333, in _update_index
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot + '######')
+NameError: name 'x_data_plot' is not defined
+2021-01-27 19:40:25,697 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:40:25,698 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:40:25,698 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x000002B1D47C29A8>.
+2021-01-27 19:40:25,698 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000002B1D47C29A8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in load
+    self.set_items(pickle.load(open(self.filename,'rb')))
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 220, in array_formation
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(x_data_plot + '######')
+NameError: name 'x_data_plot' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 248, in load
+    self.set_items(pickle.load(open(self.filename,'r')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 252, in load
+    self.set_items(pickle.load(open(self.filename,'rU')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 274, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 255, in load
+    raise IOError('Load failed.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 276, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-27 19:41:02,466 - epr.<module> - INFO - Starting logger.
+2021-01-27 19:41:02,786 - cron.run - INFO - Starting Cron Daemon.
+2021-01-27 19:41:03,541 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-27 19:41:03,908 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-27 19:41:03,916 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-27 19:41:09,518 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000021813DEC0A8> from C:/Users/Administrator/.aa/Test2.pys...
+2021-01-27 19:41:09,518 - utility.load - DEBUG - trying binary mode...
+2021-01-27 19:41:09,529 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000021813DEC0A8>, trait: x_data_plot, old value: [], new value: [4.4   4.401 4.402 4.403 4.404 4.405 4.406 4.407 4.408 4.409 4.41  4.411
+ 4.412 4.413 4.414 4.415 4.416 4.417 4.418 4.419 4.42  4.421 4.422 4.423
+ 4.424 4.425 4.426 4.427 4.428 4.429 4.43  4.431 4.432 4.433 4.434 4.435
+ 4.436 4.437 4.438 4.439 4.44  4.441 4.442 4.443 4.444 4.445 4.446 4.447
+ 4.448 4.449 4.45  4.451 4.452 4.453 4.454 4.455 4.456 4.457 4.458 4.459
+ 4.46  4.461 4.462 4.463 4.464 4.465 4.466 4.467 4.468 4.469 4.47  4.471
+ 4.472 4.473 4.474 4.475 4.476 4.477 4.478 4.479 4.48  4.481 4.482 4.483
+ 4.484 4.485 4.486 4.487 4.488 4.489 4.49  4.491 4.492 4.493 4.494 4.495
+ 4.496 4.497 4.498 4.499 4.5   4.501 4.502 4.503 4.504 4.505 4.506 4.507
+ 4.508 4.509 4.51  4.511 4.512 4.513 4.514 4.515 4.516 4.517 4.518 4.519
+ 4.52  4.521 4.522 4.523 4.524 4.525 4.526 4.527 4.528 4.529 4.53  4.531
+ 4.532 4.533 4.534 4.535 4.536 4.537 4.538 4.539 4.54  4.541 4.542 4.543
+ 4.544 4.545 4.546 4.547 4.548 4.549 4.55  4.551 4.552 4.553 4.554 4.555
+ 4.556 4.557 4.558 4.559 4.56  4.561 4.562 4.563 4.564 4.565 4.566 4.567
+ 4.568 4.569 4.57  4.571 4.572 4.573 4.574 4.575 4.576 4.577 4.578 4.579
+ 4.58  4.581 4.582 4.583 4.584 4.585 4.586 4.587 4.588 4.589 4.59  4.591
+ 4.592 4.593 4.594 4.595 4.596 4.597 4.598 4.599 4.6   4.601 4.602 4.603
+ 4.604 4.605 4.606 4.607 4.608 4.609 4.61  4.611 4.612 4.613 4.614 4.615
+ 4.616 4.617 4.618 4.619 4.62  4.621 4.622 4.623 4.624 4.625 4.626 4.627
+ 4.628 4.629 4.63  4.631 4.632 4.633 4.634 4.635 4.636 4.637 4.638 4.639
+ 4.64  4.641 4.642 4.643 4.644 4.645 4.646 4.647 4.648 4.649 4.65  4.651
+ 4.652 4.653 4.654 4.655 4.656 4.657 4.658 4.659 4.66  4.661 4.662 4.663
+ 4.664 4.665 4.666 4.667 4.668 4.669 4.67  4.671 4.672 4.673 4.674 4.675
+ 4.676 4.677 4.678 4.679 4.68  4.681 4.682 4.683 4.684 4.685 4.686 4.687
+ 4.688 4.689 4.69  4.691 4.692 4.693 4.694 4.695 4.696 4.697 4.698 4.699]
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 522, in _dispatch_change_event
+    self.dispatch(handler, *args)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 616, in dispatch
+    handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 333, in _update_index
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(self.x_data_plot + '######')
+numpy.core._exceptions.UFuncTypeError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U32')) -> dtype('<U32')
+2021-01-27 19:41:09,532 - utility.load - DEBUG - trying text mode...
+2021-01-27 19:41:09,532 - utility.load - DEBUG - trying unicode text mode...
+2021-01-27 19:41:09,536 - utility.load - DEBUG - failed to restore state of <measurements.epr.EPR object at 0x0000021813DEC0A8>.
+2021-01-27 19:41:09,536 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000021813DEC0A8>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 244, in load
+    self.set_items(pickle.load(open(self.filename,'rb')))
+  File "C:\Users\Administrator\epr\tools\utility.py", line 201, in set_items
+    self.array_formation()
+  File "C:\Users\Administrator\epr\tools\utility.py", line 220, in array_formation
+    self.plot_data_on_x()
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 365, in plot_data_on_x
+    print(self.x_data_plot + '######')
+numpy.core._exceptions.UFuncTypeError: ufunc 'add' did not contain a loop with signature matching types (dtype('<U32'), dtype('<U32')) -> dtype('<U32')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 248, in load
+    self.set_items(pickle.load(open(self.filename,'r')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 252, in load
+    self.set_items(pickle.load(open(self.filename,'rU')))
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 443: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 274, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 255, in load
+    raise IOError('Load failed.')
+OSError: Load failed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 276, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-28 09:07:26,574 - epr.<module> - INFO - Starting logger.
+2021-01-28 09:07:27,723 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 09:07:29,787 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 09:07:30,779 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 09:07:30,783 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 09:19:41,919 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000228F649B8E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 230, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 09:21:09,181 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000228F649B8E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 244, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 09:58:06,210 - epr.<module> - INFO - Starting logger.
+2021-01-28 09:58:06,800 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 09:58:07,955 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 09:58:08,340 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 09:58:08,346 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 09:59:11,726 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000024B480F3108>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 230, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:05:07,089 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:05:07,407 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:05:08,227 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:05:08,591 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:05:08,596 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:07:49,977 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:07:50,295 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:07:51,062 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:07:51,432 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:07:51,438 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:08:47,655 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000022D30E41AC8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:09:05,888 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_10h08m53, started 16856)>
+2021-01-28 10:09:05,896 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 10:09:33,590 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:09:33,891 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:10:13,343 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:10:13,669 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:10:14,482 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:10:14,833 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:10:14,838 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:11:09,797 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000020743651708>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:13:37,136 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:13:37,445 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:13:38,200 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:13:38,553 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:13:38,560 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:14:08,580 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_10h14m01, started 16820)>
+2021-01-28 10:14:08,580 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 10:19:17,658 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_10h19m09, started 7052)>
+2021-01-28 10:19:17,663 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 10:20:40,861 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000025E9836C888>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:20:59,018 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:20:59,320 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:21:00,063 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:21:00,424 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:21:00,431 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:21:03,531 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001AB51147B88>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:21:05,364 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001AB51147B88>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:21:05,507 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001AB51147B88>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:22:03,941 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:22:04,248 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:22:04,996 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:22:05,352 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:22:05,356 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:22:08,340 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000164B6C268E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:22:10,675 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000164B6C268E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:22:10,819 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000164B6C268E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:22:10,948 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000164B6C268E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:22:22,928 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_10h22m13, started 12792)>
+2021-01-28 10:22:22,936 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 10:23:02,815 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:23:03,133 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:23:03,903 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:23:04,266 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:23:04,270 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:23:07,060 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000175FA1F9F48>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:23:08,708 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000175FA1F9F48>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:23:08,859 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x00000175FA1F9F48>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:24:25,945 - epr.<module> - INFO - Starting logger.
+2021-01-28 10:24:26,247 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 10:24:27,006 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 10:24:27,367 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 10:24:27,372 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 10:24:30,132 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000027333856D08>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 10:24:31,244 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000027333856D08>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:24:31,388 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000027333856D08>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:24:54,556 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_10h24m44, started 9532)>
+2021-01-28 10:24:54,557 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 10:25:07,999 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000027333856D08>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 10:25:35,050 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_10h25m31, started 1464)>
+2021-01-28 10:25:35,050 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 10:49:29,186 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000027333856D08>, trait: save_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 262, in _save_button_fired
+    self.filename = save_file()
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 1371, in validate
+    validated_value = super(BaseFile, self).validate(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_types.py", line 348, in validate
+    self.error(object, name, value)
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\base_trait_handler.py", line 75, in error
+    object, name, self.full_info(object, name, value), value
+traits.trait_errors.TraitError: The 'filename' trait of an EPR instance must be a filename or object implementing the os.PathLike interface, but a value of None <class 'NoneType'> was specified.
+2021-01-28 12:45:22,287 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000027333856D08> from C:/Users/Administrator/Desktop/M08/TEMPO_125_2.pys...
+2021-01-28 12:45:22,287 - utility.load - DEBUG - trying binary mode...
+2021-01-28 12:45:22,301 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000027333856D08> restored.
+2021-01-28 12:45:34,960 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000027333856D08>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 274, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 239, in load
+    raise IOError('Empty filename. Specify a filename and try again!')
+OSError: Empty filename. Specify a filename and try again!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 276, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-28 12:47:42,486 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000027333856D08> from C:/Users/Administrator/Desktop/M08/TEMPO_83_3.pys...
+2021-01-28 12:47:42,486 - utility.load - DEBUG - trying binary mode...
+2021-01-28 12:47:42,494 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000027333856D08> restored.
+2021-01-28 14:08:43,645 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_14h08m15, started 8780)>
+2021-01-28 14:08:43,658 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 14:49:43,361 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_14h46m51, started 15252)>
+2021-01-28 14:49:43,362 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 15:03:30,573 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_15h03m25, started 16076)>
+2021-01-28 15:03:30,876 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 15:07:03,063 - utility.stop - DEBUG - attempt to stop thread <StoppableThread(EPR21-01-28_15h04m26, started 6044)>
+2021-01-28 15:07:03,335 - epr._run - DEBUG - Caught stop signal. Exiting.
+2021-01-28 15:24:19,700 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000027333856D08>, trait: load_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\epr\tools\utility.py", line 274, in _load_button_fired
+    self.load(self.filename)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 239, in load
+    raise IOError('Empty filename. Specify a filename and try again!')
+OSError: Empty filename. Specify a filename and try again!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\tools\utility.py", line 276, in _load_button_fired
+    warning(err.message, buttons=[OKButton])
+AttributeError: 'OSError' object has no attribute 'message'
+2021-01-28 15:25:58,548 - utility.load - DEBUG - attempting to restore state of <measurements.epr.EPR object at 0x0000027333856D08> from C:/Users/Administrator/Desktop/M08/CUSO4_1.pys...
+2021-01-28 15:25:58,548 - utility.load - DEBUG - trying binary mode...
+2021-01-28 15:25:58,555 - utility.load - DEBUG - state of <measurements.epr.EPR object at 0x0000027333856D08> restored.
+2021-01-28 15:30:50,785 - epr.<module> - INFO - Starting logger.
+2021-01-28 15:30:51,115 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 15:30:51,774 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 15:30:52,124 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 15:30:52,134 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 15:30:55,303 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001DD28F968E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 15:31:02,446 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x000001DD28F968E8>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment
+2021-01-28 15:31:15,260 - epr.<module> - INFO - Starting logger.
+2021-01-28 15:31:15,260 - epr.<module> - INFO - Starting logger.
+2021-01-28 15:31:15,260 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 15:31:15,260 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 15:32:45,038 - epr.<module> - INFO - Starting logger.
+2021-01-28 15:32:45,338 - cron.run - INFO - Starting Cron Daemon.
+2021-01-28 15:32:45,998 - editor_factory._get_toolkit_editor - DEBUG - Can't import toolkit_object 'enum_editor:ReadonlyEditor': Can't import 'enum_editor:ReadonlyEditor' for backend qt4
+2021-01-28 15:32:46,348 - font_manager.<module> - DEBUG - Using fontManager instance from C:\Users\Administrator\AppData\Roaming\Enthought\kiva\fontList.cache
+2021-01-28 15:32:46,358 - font_manager.findfont - DEBUG - findfont: Matching (['sans-serif'], 'normal', None, 'normal', 500, 10.0) to Verdana (c:\windows\fonts\verdana.ttf) with score of 1.300000
+2021-01-28 15:33:43,720 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000023BE568D228>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 232, in _bias_button_fired
+    self.bias_set = self.val
+AttributeError: 'EPR' object has no attribute 'val'
+2021-01-28 15:34:06,287 - trait_notifiers._log_exception - ERROR - Exception occurred in traits notification handler for object: <measurements.epr.EPR object at 0x0000023BE568D228>, trait: bias_button, old value: <undefined>, new value: 0
+Traceback (most recent call last):
+  File "C:\Users\Administrator\miniconda3\envs\epr\lib\site-packages\traits\trait_notifiers.py", line 340, in __call__
+    self.handler(*args)
+  File "C:\Users\Administrator\epr\measurements\epr.py", line 246, in _bias_button_fired
+    self.bias_set = val
+UnboundLocalError: local variable 'val' referenced before assignment

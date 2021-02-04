@@ -194,9 +194,11 @@ class GetSetItemsMixin( HasTraits ):
                         attr.set_items(val)
                     else:
                         setattr(self, key, val)
-                    self.array_formation()    
+                   
+                  
             except:
-                logging.getLogger().warning("failed to set item '"+key+"'")   
+                logging.getLogger().warning("failed to set item '"+key+"'") 
+        self.array_formation()            
 
     def get_items(self, keys=None):
         if keys is None:
@@ -209,19 +211,21 @@ class GetSetItemsMixin( HasTraits ):
             else:
                 d[key] = attr
         return d
- 
-    def array_formation(self)
-        self.hall_V_data        = self.getattr(self, 'hall_voltage')
-        self.login_V_data       = self.getattr(self, 'lockin_data')
-        self.control_V_data     = self.getattr(self, 'voltage')
+    
+    def array_formation(self):
+        self.hall_V_data        = getattr(self, 'hall_voltage')
+        self.login_V_data       = getattr(self, 'lockin_data')
+        self.control_V_data     = getattr(self, 'voltage')
 
         self.plot_data_on_x()
-        self._update_naming_x()
         self.plot_data_on_y()
+        
+        self._update_naming_x()
         self._update_naming_y()
 
         self._create_plot()
-
+       
+    
     def save(self, filename):
         """detects the format of the savefile and saves it according to the file-ending. .txt and .asc result in an ascii sav,
         .pyd in a pickled python save with mode='asc' and .pys in a pickled python file with mode='bin'"""
@@ -251,7 +255,8 @@ class GetSetItemsMixin( HasTraits ):
                         raise IOError('Load failed.')
             logging.getLogger().debug('state of '+self.__str__()+' restored.')
         else:
-            raise IOError('File does not exist.')
+            raise IOError('File does not exist.') 
+        
 
     def _save_button_fired(self):
         self.filename = save_file()
