@@ -1,5 +1,5 @@
 
-Alt-H1 EPR: Electron Paramagnetic Resonance
+# Alt-H1 EPR: Electron Paramagnetic Resonance
 ============================================
 
 The EPR *project* provides the measurement software for the EPR lab course as conducted at the University of Stuttgart, Germany.
@@ -12,10 +12,10 @@ The EPR *project* provides the measurement software for the EPR lab course as co
 --------
 0. Install Microsoft Visual Studio Build Tools with VC C++ 14.0 or greater (https://visualstudio.microsoft.com/de/visual-cpp-build-tools/)
 1. get [Miniconda3](https://docs.conda.io/en/latest/miniconda.html)
-1.1 [Windows Only] start Anaconda Powershell 
-2. within Anaconda Powershell navigate cloned git folder EPR
-3. conda env create -f conda_epr.yml
-4. *optional* pip install pillow, nidaqmx, fonttools, enable, chaco, wxPython
+2. [Windows Only] start Anaconda Powershell 
+3. within Anaconda Powershell navigate cloned git folder EPR
+4. conda env create -f conda_epr.yml
+5. *optional* pip install pillow, nidaqmx, fonttools, enable, chaco, wxPython
 
 #Run
 ----
