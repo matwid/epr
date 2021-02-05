@@ -133,7 +133,7 @@ def dictToAscii(dict, keys=None):
       del dict['__doc__']
     except:
       datastring=''
-    measuerd_data_array =[[],[],[]]
+    measuerd_data_array =[[],[],[],[]]
     j=0
     for key, value in dict.items():
         datastring+= '#'+key+'\n' # header for each key
@@ -156,7 +156,7 @@ def dictToAscii(dict, keys=None):
                     except:
                         n=len(value)
                     
-                    if j <= 2:
+                    if j <= 3:
                         for i in range(n):
                             measuerd_data_array[j].append(value[i])
                     j+=1
@@ -170,7 +170,7 @@ def dictToAscii(dict, keys=None):
     array_data = ''
     measuerd_data_array= np.transpose(measuerd_data_array)
     for i in range(len(measuerd_data_array)):
-        array_data += (str(measuerd_data_array[i][0])+'\t'+str(measuerd_data_array[i][1])+'\t'+str(measuerd_data_array[i][2])+'\n')
+        array_data += (str(measuerd_data_array[i][0])+'\t'+str(measuerd_data_array[i][1])+'\t'+str(measuerd_data_array[i][2])+'\t'+str(measuerd_data_array[i][3])+'\n')
     datastring=datastring +'\n'+ array_data 
     return datastring
     
