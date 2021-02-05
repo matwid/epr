@@ -2,13 +2,63 @@ name: epr
 channels:
   - defaults
 dependencies:
+  - backcall
+  - blas
+  - ca-certificates
+  - certifi
+  - colorama
+  - cython
+  - decorator
+  - icc_rt
+  - icu
+  - intel-openmp
   - ipython
-  - scipy
-  - python-dateutil
-  - traitsui
-  - pytz
-  - traits
+  - ipython_genutils
+  - jedi
+  - jpeg
+  - libpng
+  - mkl
+  - mkl-service
+  - mkl_fft
+  - mkl_random
   - numpy
-  - swig
+  - numpy-base
+  - openssl
   - pandas
+  - parso
+  - pickleshare
+  - pip
+  - prompt-toolkit
+  - pyface
+  - pygments
+  - pyqt
+  - python=3.7.9
+  - python-dateutil
+  - pytz
+  - qt
+  - scipy
+  - setuptools
+  - sip
+  - six
+  - sqlite
+  - swig
+  - tk
+  - traitlets
+  - traits
+  - traitsui
+  - vc
+  - vs2015_runtime
+  - wcwidth
+  - wheel
+  - wincertstore
+  - zlib
+  - pip:
+    - chaco
+    - enable
+    - fonttools
+    - lxml
+    - nidaqmx
+    - pillow
+    - pytils
+    - wxpython
 
