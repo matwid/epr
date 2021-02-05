@@ -9,7 +9,7 @@ The EPR *project* provides the measurement software for the EPR lab course as co
 ## ToDo
 
 - fix sweep from zero
-- remove ghosting from other analog in channels
+- remove ghosting from other analog in channels [see this threat](https://knowledge.ni.com/KnowledgeArticleDetails?id=kA03q000000YHy6CAG&l=de-DE)
 
 ## Pre-Requisites
 
